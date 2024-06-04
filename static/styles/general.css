@@ -1,0 +1,61 @@
+body{
+  margin: 0px;
+  background-color: rgb(54, 21, 0);
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Patrick Hand SC", cursive;
+}
+.kofe-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding-right: 20px;
+  background-color: rgb(18, 10, 0);
+}
+
+
+.header-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo{
+  width: 80px;
+}
+.logo-text-block{
+  font-size: 26px;
+  display: flex;
+  flex-direction: row;
+}
+
+.kofe{
+  padding-right: 10px;
+}
+.wifi{
+  padding-left: 10px;
+}
+
+.header-right{
+  display: flex;
+  flex-direction: row;
+}
+.options{
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.clickable{
+  cursor: pointer;
+  font-size: 24px;
+}
+footer{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  background-color: rgb(18, 10, 0);
+}
