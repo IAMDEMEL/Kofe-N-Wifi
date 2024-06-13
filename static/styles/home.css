@@ -1,3 +1,7 @@
+main{
+  position: relative;
+  top: -68px;
+}
 .hero{
   display: flex;
   color: white;
@@ -140,6 +144,26 @@
   background-color: rgb(18, 10, 0);
   padding: 0px 10px;
 }
+.parish-information{
+  display: flex;
+  flex-direction: column;
+}
+.parish-information .information{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 10px;
+}
+.list-heading{
+  padding: 15px;
+  font-size: 18px;
+  margin: 0px;
+  background-color: rgb(18, 10, 0);
+  color: white;
+}
+.parish-image{
+  width: 300px;
+  margin-right: 20px;
+}
 .close-button{
   border: none;
   background-color: rgb(18, 10, 0);
@@ -147,6 +171,9 @@
   color: white;
 }
 
+.place{
+  margin-bottom: 2px;
+}
 .place-heading{
   background-color: rgb(28, 10, 0);
   padding: 0px 20px;
@@ -179,7 +206,7 @@
   width: 15px;
 }
 .place-info{
-  padding: 20px 20px;
+  padding: 20px 20px 0px 20px;
   display: flex;
   flex-direction: row;
   align-items: top;

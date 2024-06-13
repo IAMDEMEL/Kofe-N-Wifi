@@ -1,0 +1,11 @@
+.background-beans{
+  position: fixed;
+  top: -80px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+}
+.bkgd-bean{
+  z-index: 1;
+  width: 50px;
+}

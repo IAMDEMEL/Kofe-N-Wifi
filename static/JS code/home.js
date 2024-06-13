@@ -1,60 +1,47 @@
 
-rotated = false;
-beans = document.querySelectorAll(".bean");
-list_of_parishes_name = []
-data = []
+let rotated = false;
+let beans = document.querySelectorAll(".bean");
+let list_of_parishes_name = [];
+let data = [];
+locations = null;
+
+const snakeCase = string => {
+  return string.replace(/\W+/g, " ")
+    .split(/ |\B(?=[A-Z])/)
+    .map(word => word.toLowerCase())
+    .join('_');
+};
+
 fetch("../data/parish_information.json")
   .then(response => response.json())
   .then(parish_json_info => {
     data.push(parish_json_info['Parishes']);
-    
     data[0].forEach(parish => {
       for(let name in parish){
         parish_branch = document.getElementById(`${name.toLowerCase()}-branch`);
-        parish_branch.querySelector('.parish-name').innerHTML = `${name}`;
-        // parish_branch.style.setProperty('font-family', 'Arial') * TO CHANGE FONT FAMILY
 
-        list_of_locations = parish_branch.querySelector('.locations-list').querySelector('ul');
         parish[name].forEach(location_information =>{
           for(let location_name in location_information){
+            parish_branch.querySelector('.parish-name').innerHTML = name;
+            current_branch = parish_branch.querySelector('.list-top');
+            list_of_locations = parish_branch.querySelector('.locations-list').querySelector('ul');
+
             if(location_name === name){
-              // Add Parish Picture and Description
+              current_branch.insertAdjacentHTML('afterend', `<div class="parish-information">
+                <div class="information">
+                  <img class="parish-image" src="${location_information[location_name]['image-location']}">
+                  <p class="parish-description">${location_information[location_name]['parish-description']}</p>
+                </div>
+                <p class="list-heading">Locations</p>
+              </div>`)
               return;
             }
             else{
-              console.log(location_name)
-              console.log(location_information[location_name])
               list_of_locations.insertAdjacentHTML('beforeend', 
-              `<li class="place"> 
+              `<li class="place clickable ${snakeCase(location_name)}" onclick="ToggleLocationInformation('${name.toLowerCase()}-branch', '${snakeCase(location_name)}')"> 
                 <div class="place-heading"> 
                   <p class="name">${location_name}</p>
                   <div class="rating-hightlight rating-overall">${DisplayStarRating(location_information[location_name]['overall-rating'])}</div>
-                </div>
-                <div class="place-info">
-                  <img class="location-image" src="../static/image/Left Arm.png">
-                  <div class="review-block">
-                    <p class="description">${location_information[location_name]['description']}</p>
-                    <div class="ratings">
-                      <div class="coffee-rating">
-                        <p class="rating">Kofe:</p>
-                        <div class="rating-hightlight coffee-rating-overall">${DisplayStarRating(location_information[location_name]['coffee-rating'])}
-                        <p>${location_information[location_name]['coffee-rating']}/5</p>
-                        </div>
-                      </div>
-                      <div class="wifi-rating">
-                        <p class="rating">Wifi: </p>
-                        <div class="rating-hightlight wifi-rating-overall">${DisplayStarRating(location_information[location_name]['wifi-rating'])}
-                        <p>${location_information[location_name]['wifi-rating']}/5</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="overall-rating">
-                      <p class="rating">Overall: </p>
-                      <div class="rating-hightlight rating-overall">${DisplayStarRating(location_information[location_name]['overall-rating'])}
-                      <p>${location_information[location_name]['overall-rating']}/5</p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </li>`
               )
@@ -67,7 +54,69 @@ fetch("../data/parish_information.json")
 );
 
 
+function ToggleLocationInformation(branch_name, name){
+  current_location = document.getElementById(branch_name).querySelector(`.${name}`);
+  wifi_local = null;
+  if(name.includes('_')){
+    name = `${toTitleCase(name.split('_')[0])} ${toTitleCase(name.split('_')[1])}`}
+  else{
+    name = toTitleCase(name)
+  }
+  
+  if(current_location.classList.contains('has-clicked')){
+    const removable = current_location.querySelector('.place-info');
+    console.log(current_location)
+    removable.remove();
+    current_location.classList.remove('has-clicked');
+  }
+  else{
+    current_parish =  toTitleCase(branch_name.split("-")[0]);
+    data[0].forEach(parish =>{
+      for(let parish_name in parish){
+        if(parish_name === current_parish){
+          parish[parish_name].forEach(wifi_spot =>{
+            for(place_name in wifi_spot){
+              if (place_name === name){
+                wifi_local = wifi_spot;
+                console.log(wifi_local)
+              }
+            }
+          })
+        }
+      }
+    });
 
+    location_name = current_location.querySelector('.name').innerHTML;
+    current_location.classList.add('has-clicked')
+    current_location.querySelector('.place-heading').insertAdjacentHTML('afterend',`
+    <div class="place-info">
+    <img class="location-image" src="../static/image/Left Arm.png">
+    <div class="review-block">
+      <p class="description">${wifi_local[name]['description']}</p>
+      <div class="ratings">
+        <div class="coffee-rating">
+          <p class="rating">Kofe:</p>
+          <div class="rating-hightlight coffee-rating-overall">${DisplayStarRating(wifi_local[name]['coffee-rating'])}
+          <p>${wifi_local[name]['coffee-rating']}/5</p>
+          </div>
+        </div>
+        <div class="wifi-rating">
+          <p class="rating">Wifi: </p>
+          <div class="rating-hightlight wifi-rating-overall">${DisplayStarRating(wifi_local[name]['wifi-rating'])}
+          <p>${wifi_local[name]['wifi-rating']}/5</p>
+          </div>
+        </div>
+        </div>
+        <div class="overall-rating">
+          <p class="rating">Overall: </p>
+          <div class="rating-hightlight rating-overall">${DisplayStarRating(wifi_local[name]['overall-rating'])}
+          <p>${wifi_local[name]['overall-rating']}/5</p>
+          </div>
+        </div>
+      </div>
+    </div>`)
+  }
+}
 
 function JiggleBean(){
   for (let bean of beans){
@@ -191,6 +240,15 @@ function DisplayStarRating(rating){
     <img class="star star4" src="../static/icons/full star.png">
     <img class="star star5" src="../static/icons/full star.png">`
   }
+}
+
+function toTitleCase(str) {
+  return str.replace(
+    /\w\S*/g,
+    function(txt) {
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    }
+  );
 }
 
 setInterval(JiggleBean, 1200)
