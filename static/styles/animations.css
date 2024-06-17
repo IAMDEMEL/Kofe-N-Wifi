@@ -1,11 +1,57 @@
-.background-beans{
-  position: fixed;
+.background-beans-1{
+  position: relative;
   top: -80px;
   left: 0px;
   right: 0px;
   z-index: 1;
+  display: flex;
+  flex-direction: row;
 }
+.background-beans-2{
+  position: relative;
+  top: -30px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  display: flex;
+  flex-direction: row;
+}
+.falling-bean{
+  width: 25px;
+}
+.falling-bean-2{
+  width: 30px;
+}
+.very-slow{
+  animation: falling 20s linear infinite;
+}
+.slow{
+  animation: falling 19s linear infinite;
+}
+.normal{
+  animation: falling 18s linear infinite;
+}
+.fast{
+  animation: falling 17s linear infinite;
+}
+.very-fast{
+  animation: falling 16s linear infinite;
+}
+
 .bkgd-bean{
+  position: absolute;
+  top: 0px;
   z-index: 1;
-  width: 50px;
+  width: 100%;
+  opacity: 50%;
+}
+
+@keyframes falling{
+  from{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(5500px);
+  }
+
 }

@@ -1,6 +1,7 @@
 main{
   position: relative;
-  top: -68px;
+  top: -42px;
+  z-index: 9995;
 }
 .hero{
   display: flex;

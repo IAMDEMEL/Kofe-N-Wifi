@@ -38,8 +38,8 @@ fetch("../data/parish_information.json")
             }
             else{
               list_of_locations.insertAdjacentHTML('beforeend', 
-              `<li class="place clickable ${snakeCase(location_name)}" onclick="ToggleLocationInformation('${name.toLowerCase()}-branch', '${snakeCase(location_name)}')"> 
-                <div class="place-heading"> 
+              `<li class="place ${snakeCase(location_name)}" onclick="ToggleLocationInformation('${name.toLowerCase()}-branch', '${snakeCase(location_name)}')"> 
+                <div class="place-heading clickable"> 
                   <p class="name">${location_name}</p>
                   <div class="rating-hightlight rating-overall">${DisplayStarRating(location_information[location_name]['overall-rating'])}</div>
                 </div>

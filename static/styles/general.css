@@ -6,6 +6,7 @@ body{
   font-family: "Patrick Hand SC", cursive;
 }
 .kofe-header{
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -21,44 +22,36 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
-  z-index: 9999;
 }
 .logo{
   width: 80px;
-  z-index: 9999;
 }
 .logo-text-block{
   font-size: 26px;
   display: flex;
   flex-direction: row;
-  z-index: 9999;
 }
 
 .kofe{
   padding-right: 10px;
-  z-index: 9999;
 }
 .wifi{
   padding-left: 10px;
-  z-index: 9999;
 }
 
 .header-right{
   display: flex;
   flex-direction: row;
-  z-index: 9999;
 }
 .options{
   width: 250px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  z-index: 9999;
 }
 .clickable{
   cursor: pointer;
   font-size: 24px;
-  z-index: 9999;
 }
 footer{
   margin-top: 40px;
@@ -67,5 +60,6 @@ footer{
   justify-content: center;
   color: white;
   background-color: rgb(18, 10, 0);
+  position: relative;
   z-index: 9999;
 }
