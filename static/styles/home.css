@@ -211,6 +211,7 @@ main{
   display: flex;
   flex-direction: row;
   align-items: top;
+  background-color: rgb(54, 21, 0);
 }
 .description{
   margin-top: 0px;
