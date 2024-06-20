@@ -1,8 +1,5 @@
-// let background_beans_container_1 = document.querySelector('.background-beans-1');
-const screen_width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-// let beans_to_spawn = Math.floor(screen_width / document.querySelector('.falling-bean-1').offsetWidth);
-
 function Spawn_Background_Beans(){
+  const screen_width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   let rows_of_beans_to_spawn = 3;
   for(let row = 1; row <= rows_of_beans_to_spawn; row++){
     let background_beans_container = document.querySelector(`.background-beans-${row}`);
