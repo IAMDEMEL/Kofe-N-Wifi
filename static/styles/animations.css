@@ -30,19 +30,19 @@
   width: 40px;
 }
 .very-slow{
-  animation: falling 20s linear infinite;
-}
-.slow{
-  animation: falling 19s linear infinite;
-}
-.normal{
   animation: falling 18s linear infinite;
 }
-.fast{
+.slow{
   animation: falling 17s linear infinite;
 }
-.very-fast{
+.normal{
   animation: falling 16s linear infinite;
+}
+.fast{
+  animation: falling 15s linear infinite;
+}
+.very-fast{
+  animation: falling 14s linear infinite;
 }
 
 
@@ -52,13 +52,21 @@
   z-index: 1;
   width: 100%;
 }
+#bottom-of-page{
+  margin: 0px;
+}
+
+:root{
+  --start_pos: 0px;
+  --end_pos: 1500px;
+}
 
 @keyframes falling{
-  from{
-    transform: translateY(0px);
+  0%{
+    transform: translateY(var(--start_pos));
   }
-  to{
-    transform: translateY(5500px);
+  100%{
+    transform: translateY(var(--end_pos));
   }
 
 }

@@ -67,7 +67,30 @@ function Bean_Tuning(bean) {
   }
   bean.style.opacity = opacity;
   bean.style.animationDelay = (Math.random() * 20) + 's';
-}
+  
+  
+  current_page = document.querySelector('main');
+  if(current_page.classList.contains('home')){
+  bean.style.setProperty('--end_pos', '5790px');
+  }
+  else if(current_page.classList.contains('about')){
+    bean.style.setProperty('--end_pos', '650px');
 
+    if (bean.classList.contains('very-slow')){bean.style.setProperty('animation-duration', '9s');}
+    else if (bean.classList.contains('slow')){bean.style.setProperty('animation-duration', '8s');}
+    else if (bean.classList.contains('normal')){bean.style.setProperty('animation-duration', '7s');}
+    else if (bean.classList.contains('fast')){bean.style.setProperty('animation-duration', '6s');}
+    else if (bean.classList.contains('very-fast')){bean.style.setProperty('animation-duration', '5s');}
+  }
+  else if(current_page.classList.contains('contact')){
+    bean.style.setProperty('--end_pos', '2500px');
+
+    if (bean.classList.contains('very-slow')){bean.style.setProperty('animation-duration', '14s');}
+    else if (bean.classList.contains('slow')){bean.style.setProperty('animation-duration', '13s');}
+    else if (bean.classList.contains('normal')){bean.style.setProperty('animation-duration', '12s');}
+    else if (bean.classList.contains('fast')){bean.style.setProperty('animation-duration', '11s');}
+    else if (bean.classList.contains('very-fast')){bean.style.setProperty('animation-duration', '10s');}
+  }
+}
 
 Spawn_Background_Beans();
