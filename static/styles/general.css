@@ -6,6 +6,11 @@ body{
   font-family: "Patrick Hand SC", cursive;
   overflow-x: hidden;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+
 .kofe-header{
   position: relative;
   display: flex;
@@ -55,7 +60,6 @@ body{
   font-size: 24px;
 }
 footer{
-  margin-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;

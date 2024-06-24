@@ -10,13 +10,13 @@
 }
 .background-beans-2{
   position: relative;
-  z-index: -1;
+  z-index: 1;
   display: flex;
   flex-direction: row;
 }
 .background-beans-3{
   position: relative;
-  z-index: -1;
+  z-index: 1;
   display: flex;
   flex-direction: row;
 }
@@ -48,7 +48,7 @@
 
 .bkgd-bean{
   position: absolute;
-  top: 0px;
+  top: -20px;
   z-index: 1;
   width: 100%;
 }

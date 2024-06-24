@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kofe N Wifi | Contact</title>
+    <link rel="stylesheet" href="../static/styles/general.css">
+    <link rel="stylesheet" href="../static/styles/animations.css">
+    <link rel="stylesheet" href="../static/styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="kofe-header">
+      <section class="header-left">
+        <div class="logo-block">
+          <img class="logo" src="../static/image/logo/wifi mug(only).png">
+        </div>
+        <div class="logo-text-block">
+          <p class="kofe">Kofe </p>
+          <p class="n">N </p>
+          <p class="wifi">Wifi</p>
+        </div>
+      </section>
+      <section class="header-right">
+        <div class="options">
+          <a class="clickable" href="/template/home.html"><p>Home</p></a>
+          <a class="clickable" href="/template/about.html"><p>About</p></a>
+          <a class="clickable" href="/template/contact.html"><p>Contact</p></a>
+        </div>
+      </section>
+    </header>
+
+    <section class="background-animation">
+    <div class="background-beans-1">
+      <div class="falling-bean-1 normal">
+        <img class="after-trail">
+        <img class="bkgd-bean" src="../static/image/Bean.png">
+      </div>
+    </div>
+    <div class="background-beans-2">
+      <div class="falling-bean-2 slow">
+        <img class="after-trail">
+        <img class="bkgd-bean" src="../static/image/Bean.png">
+      </div>
+    </div>
+    <div class="background-beans-3">
+      <div class="falling-bean-3 fast">
+        <img class="after-trail">
+        <img class="bkgd-bean" src="../static/image/Bean.png">
+      </div>
+    </div>
+  </section>
+
+
+    <main>
+      <section class="hero">
+        <!-- <p class="hero-text">Great <span class="white">Coffee</span> And <span class="white">Wifi</span> Locations Across  <span class="white hero-jamaica">Jamaica</span></p> -->
+        <p class="hero-text">Great <span class="white">Coffee</span> <span class="yellow">And</span> <span class="white">Wifi</span> Locations <span class="yellow">Across</span>  <span class="hero-jamaica"><span class="yellow">Jam</span><span class="white">ai</span>ca</p>
+        <img class="hero-image" src="../static/image/Hero - Coffee on Mountain.png">
+      </section>
+
+      <section class="information">
+        <div class="location-block">
+          <div class="bean-block block1">
+            <div class="Hanover parish-info">
+              <div class="hanover bean-image">
+                <p class="highlight highlight1">Hanover</p>
+                <img id="hanover" class="bean bean1" src="../static/image/Bean.png" onmousemove="HighlightBean('hanover')" onmouseout="UnhighlightBean('hanover')" onclick="ToggleBranch('hanover-branch')">
+              </div>
+
+              <div id="hanover-branch" class="coffee-branch not-visible">
+                <!-- <div class="top">
+
+                </div> -->
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <button class="close-button clickable" onclick="ToggleBranch('hanover-branch')">x</button>
+                    </div>
+
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="bottom">
+
+                </div> -->
+              </div>
+            </div>
+
+            <div class="Saint-James parish-info parish-info2">
+              <div class="st_james bean-image">
+                <p class="highlight highlight3">St.James</p>
+                <img id="st.james" class="bean" src="../static/image/Bean2.png" onmouseover="HighlightBean2('st.james')" onmouseout="UnhighlightBean2('st.james')" onclick="ToggleBranch('st.james-branch')">
+              </div>
+
+              <div id="st.james-branch" class="coffee-branch not-visible">
+                <!-- <div class="top">
+
+                </div> -->
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <button class="close-button clickable " onclick="ToggleBranch('st.james-branch')">x</button>
+                    </div>
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="bottom">
+
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="bean-block block2">
+            <div class="trelawny bean-image">
+              <p class="highlight highlight2">Trelawny</p>
+              <div class="parish-info Trelawny">
+                <img id="trelawny" class="bean bean1" src="../static/image/Bean.png" onmouseover="HighlightBean('trelawny')" onmouseout="UnhighlightBean('trelawny')">
+              </div>
+            </div>
+            <div class="st_ann bean-image">
+              <p class="highlight highlight2">St.Ann</p>
+              <div class="parish-info parish-info2 Saint-Ann">
+                <img id="st.ann" class="bean" src="../static/image/Bean2.png" onmouseover="HighlightBean2('st.ann')" onmouseout="UnhighlightBean2('st.ann')">
+              </div>
+            </div>
+          </div>
+
+          <div class="bean-block block3">
+            <div class="st_mary bean-image">
+              <p class="highlight highlight0">St.Mary</p>
+              <div class="parish-info Saint-Mary">
+                <img id="st.mary" class="bean bean1" src="../static/image/Bean.png" onmousemove="HighlightBean('st.mary')" onmouseout="UnhighlightBean('st.mary')">
+              </div>
+            </div>  
+            <div class="portland bean-image">
+                <p class="highlight highlight4">Portland</p>
+              <div class="parish-info parish-info2 Portland">
+                <img id="portland" class="bean" src="../static/image/Bean2.png" onmouseover="HighlightBean2('portland')" onmouseout="UnhighlightBean2('portland')">
+              </div>  
+            </div>  
+          </div>
+
+          <div class="bean-block block4">
+            <div class="westmoreland bean-image">
+              <p class="highlight highlight6">Westmoreland</p>
+              <div class="parish-info Westmoreland">
+                <img id="westmoreland" class="bean bean1" src="../static/image/Bean.png" onmousemove="HighlightBean('westmoreland')" onmouseout="UnhighlightBean('westmoreland')">
+              </div>
+            </div>
+            <div class="st_elizabeth bean-image">
+              <p class="highlight highlight6">St.Elizabeth</p>
+              <div class="parish-info parish-info2 Saint-Elizabeth">
+                <img id="st.elizabeth" class="bean" src="../static/image/Bean2.png" onmouseover="HighlightBean2('st.elizabeth')" onmouseout="UnhighlightBean2('st.elizabeth')">
+              </div>
+            </div>
+          </div>
+
+          <div class="bean-block block5">
+            <div class="manchester bean-image">
+              <p class="highlight highlight4">Manchester</p>
+              <div class="parish-info Manchester">
+                <img id="manchester" class="bean bean1" src="../static/image/Bean.png" onmousemove="HighlightBean('manchester')" onmouseout="UnhighlightBean('manchester')">
+              </div>
+          </div>
+            <div class="clarendon bean-image">
+              <p class="highlight highlight5">Clarendon</p>
+              <div class="parish-info parish-info2 Clarendon">
+                <img id="clarendon" class="bean" src="../static/image/Bean2.png" onmouseover="HighlightBean2('clarendon')" onmouseout="UnhighlightBean2('clarendon')">
+              </div>
+          </div>
+          </div>
+
+          <div class="bean-block block6">
+            <div class="st_catherine bean-image">
+              <p class="highlight highlight5">St.Catherine</p>
+              <div class="parish-info Saint-Catherine">
+                <img id="st.catherine" class="bean bean1" src="../static/image/Bean.png" onmousemove="HighlightBean('st.catherine')" onmouseout="UnhighlightBean('st.catherine')">
+              </div>
+            </div>
+            <div class="st_andrew bean-image">
+              <p class="highlight highlight5">St.Andrew</p>
+              <div class="parish-info parish-info2 Saint-Andrew">
+                <img id="st.andrew" class="bean" src="../static/image/Bean2.png" onmouseover="HighlightBean2('st.andrew')" onmouseout="UnhighlightBean2('st.andrew')">
+              </div>
+            </div>
+          </div>
+
+          <div class="bean-block block7">
+            <div class="kingston bean-image">
+              <p class="highlight highlight2">Kingston</p>
+              <div class="parish-info Kingston">
+                <img id="kingston" class="bean bean1" src="../static/image/Bean.png" onmousemove="HighlightBean('kingston')" onmouseout="UnhighlightBean('kingston')">
+              </div>
+            </div>
+            <div class="st_thomas bean-image">
+              <p class="highlight highlight5">St.Thomas</p>
+              <div class="parish-info parish-info2 Saint-Thomas">
+                <img id="st.thomas" class="bean" src="../static/image/Bean2.png" onmouseover="HighlightBean2('st.thomas')" onmouseout="UnhighlightBean2('st.thomas')">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <footer>
+      <p>Kofe n Wifi @ 2024. All Rights Reserved.</p>
+    </footer>
+    <script src="../static/JS code/home.js"></script>
+    <script src="../static/JS code/general.js"></script>
+  </body>
+</html>
