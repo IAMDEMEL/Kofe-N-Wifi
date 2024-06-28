@@ -4,7 +4,7 @@
       "Hanover": [
         {
           "Hanover":{
-            "image-location": "../static/image/Hero - Coffee on Mountain.png",
+            "image-location": "../static/image/Hero 1 - Coffee on Mountain.png",
             "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
           }
         },
@@ -32,7 +32,7 @@
       "St.James": [
         {
           "St.James":{
-            "image-location": "../static/image/Hero - Coffee on Mountain.png",
+            "image-location": "../static/image/Hero 2 - Man Holding Coffee.png",
             "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
           }
         },
@@ -57,7 +57,32 @@
       ]
     },
     {
-      "Trelawny": []
+      "Trelawny": [
+        {
+          "Trelawny":{
+            "image-location": "../static/image/Hero 1 - Coffee on Mountain.png",
+            "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+          }
+        },
+        {
+          "Burger King": {
+            "overall-rating": 0,
+            "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+            "image-location": "",
+            "coffee-rating": 0.3,
+            "wifi-rating": 1
+          }
+        },
+        {
+          "Mothers Patty": {
+            "overall-rating": 1.3,
+            "description": "Grabbing a morning patty and cocobread with coffee is a real treat here. Is not always air-conditioned but they have fans that help cool down. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+            "image-location": "",
+            "coffee-rating": 2,
+            "wifi-rating": 2.3
+          }
+        }
+      ]
     },
     {
       "Westmoreland": []
@@ -66,7 +91,32 @@
       "St.Elizabeth": []
     },
     {
-      "St.Ann": []
+      "St.Ann": [
+        {
+          "St.Ann":{
+            "image-location": "../static/image/Hero 2 - Man Holding Coffee.png",
+            "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+          }
+        },
+        {
+          "Johns Patty": {
+            "overall-rating": 3,
+            "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+            "image-location": "",
+            "coffee-rating": 3.3,
+            "wifi-rating": 4
+          }
+        },
+        {
+          "KFC": {
+            "overall-rating": 4.3,
+            "description": "Grabbing a morning patty and cocobread with coffee is a real treat here. Is not always air-conditioned but they have fans that help cool down. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+            "image-location": "",
+            "coffee-rating": 5,
+            "wifi-rating": 4.3
+          }
+        }
+      ]
     },
     {
       "St.Mary": []

@@ -115,10 +115,13 @@
 }
 
 .parish-info{
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .parish-info2{
+  margin-top: 10px;
   flex-direction: row-reverse;
 }
 .coffee-branch{
@@ -138,6 +141,7 @@
 }
 .not-visible{
   visibility: hidden;
+  height: 550px;
   width: 200px;
 }
 .list-top, .place-heading{
@@ -157,6 +161,7 @@
 .parish-information .information{
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 20px 10px;
 }
 .list-heading{
