@@ -30,19 +30,19 @@
   width: 40px;
 }
 .very-slow{
-  animation: falling 18s linear infinite;
+  animation: falling 28s linear infinite;
 }
 .slow{
-  animation: falling 17s linear infinite;
+  animation: falling 27s linear infinite;
 }
 .normal{
-  animation: falling 16s linear infinite;
+  animation: falling 26s linear infinite;
 }
 .fast{
-  animation: falling 15s linear infinite;
+  animation: falling 25s linear infinite;
 }
 .very-fast{
-  animation: falling 14s linear infinite;
+  animation: falling 24s linear infinite;
 }
 
 

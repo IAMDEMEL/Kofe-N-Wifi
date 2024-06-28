@@ -6,19 +6,19 @@
   justify-content: right;
   background-color: rgb(28, 10, 0);
 }
-.hero-text{
-  padding-left: 30px;
+.hero-heading-text{
   font-size: 50px;
-  color: rgb(34, 155, 34);
   font-weight: 550;
+  padding: 20px;
+  color: rgb(34, 155, 34);
 }
-.hero-text .yellow{
+.hero-heading-text .yellow{
   color: yellow;
 }
-.hero-text .coffee{
+.hero-heading-text .coffee{
   color: black;
 }
-.hero-text .white{
+.hero-heading-text .white{
   color: white;
 }
 .hero-jamaica{
@@ -31,7 +31,7 @@
   background-color: rgb(28, 10, 0);
 }
 .hero-image{
-  opacity: 60%;
+  opacity: 50%;
   height: 550px;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;

@@ -1,3 +1,5 @@
+let current_page = document.querySelector('main');
+
 function Spawn_Background_Beans(){
   const screen_width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   let rows_of_beans_to_spawn = 3;
@@ -5,6 +7,10 @@ function Spawn_Background_Beans(){
     let background_beans_container = document.querySelector(`.background-beans-${row}`);
     let beans_to_spawn = Math.floor(screen_width / document.querySelector(`.falling-bean-${row}`).offsetWidth);
     
+    if(current_page.classList.contains('about') || current_page.classList.contains('contact')){
+      if(row >= 2){break;}
+    }
+
     for (i = 1; i < beans_to_spawn; i++){
       let fall_speed = Math.random();
       if(fall_speed < 1/5){
@@ -68,28 +74,26 @@ function Bean_Tuning(bean) {
   bean.style.opacity = opacity;
   bean.style.animationDelay = (Math.random() * 20) + 's';
   
-  
-  current_page = document.querySelector('main');
   if(current_page.classList.contains('home')){
   bean.style.setProperty('--end_pos', '5790px');
   }
   else if(current_page.classList.contains('about')){
-    bean.style.setProperty('--end_pos', '650px');
+    bean.style.setProperty('--end_pos', '630px');
+
+    if (bean.classList.contains('very-slow')){bean.style.setProperty('animation-duration', '7s');}
+    else if (bean.classList.contains('slow')){bean.style.setProperty('animation-duration', '6s');}
+    else if (bean.classList.contains('normal')){bean.style.setProperty('animation-duration', '5s');}
+    else if (bean.classList.contains('fast')){bean.style.setProperty('animation-duration', '4s');}
+    else if (bean.classList.contains('very-fast')){bean.style.setProperty('animation-duration', '3s');}
+  }
+  else if(current_page.classList.contains('contact')){
+    bean.style.setProperty('--end_pos', '1000px');
 
     if (bean.classList.contains('very-slow')){bean.style.setProperty('animation-duration', '9s');}
     else if (bean.classList.contains('slow')){bean.style.setProperty('animation-duration', '8s');}
-    else if (bean.classList.contains('normal')){bean.style.setProperty('animation-duration', '7s');}
+    else if (bean.classList.contains('normal')){bean.style.setProperty('animation-duration','7s');}
     else if (bean.classList.contains('fast')){bean.style.setProperty('animation-duration', '6s');}
     else if (bean.classList.contains('very-fast')){bean.style.setProperty('animation-duration', '5s');}
-  }
-  else if(current_page.classList.contains('contact')){
-    bean.style.setProperty('--end_pos', '2500px');
-
-    if (bean.classList.contains('very-slow')){bean.style.setProperty('animation-duration', '14s');}
-    else if (bean.classList.contains('slow')){bean.style.setProperty('animation-duration', '13s');}
-    else if (bean.classList.contains('normal')){bean.style.setProperty('animation-duration', '12s');}
-    else if (bean.classList.contains('fast')){bean.style.setProperty('animation-duration', '11s');}
-    else if (bean.classList.contains('very-fast')){bean.style.setProperty('animation-duration', '10s');}
   }
 }
 
