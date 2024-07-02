@@ -8,7 +8,11 @@ function Spawn_Background_Beans(){
     let beans_to_spawn = Math.floor(screen_width / document.querySelector(`.falling-bean-${row}`).offsetWidth);
     
     if(current_page.classList.contains('about') || current_page.classList.contains('contact')){
-      if(row >= 2){break;}
+      if(row >= 2){
+        background_beans_container.remove();
+        background_beans_container = document.querySelector(`.background-beans-${row + 1}`);
+        background_beans_container.remove();
+        break;}
     }
 
     for (i = 1; i < beans_to_spawn; i++){

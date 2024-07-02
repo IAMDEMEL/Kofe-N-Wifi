@@ -129,11 +129,50 @@
   color: white;
   display: flex;
   flex-direction: column;
-  border: 3px solid rgb(18, 10, 0);
   width: 1100px;
 }
+
+
+/* Parish Borders */
+.top-border, .bottom-border{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 9999;
+  left: 10px;
+}
+.side-border{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 9999;
+}
+.side-border{
+  left: 10px;
+}
+
+.top-border{
+  top: 5px;
+}
+.bottom-border{
+  bottom: 5px;
+}
+.border-leaves{
+  height: 30px;
+  width: 30px;
+}
+.border-beans{
+  height: 30px;
+  width: 30px;
+}
+
+
+
+
 .middle{
   position: inherit;
+  display: flex;
+  flex-direction: row;
   z-index: 100;
 }
 .visible{
@@ -153,6 +192,9 @@
 .list-top{
   background-color: rgb(18, 10, 0);
   padding: 0px 10px;
+}
+.parish-list{
+  min-width: 576px;
 }
 .parish-information{
   display: flex;
@@ -176,10 +218,7 @@
   margin-right: 20px;
 }
 .close-button{
-  border: none;
-  background-color: rgb(18, 10, 0);
-  font-size: 24px;
-  color: white;
+  width: 24px;
 }
 
 .place{
@@ -243,7 +282,7 @@
 }
 
 .locations-list ul{
-  height:400px; 
+  max-height:355px; 
   overflow:hidden; 
   overflow-y:scroll;
   list-style-type: none;
@@ -251,6 +290,7 @@
   margin: 0px;
 }
 
+/* Bean Placements */
 .hanover{
   margin-left: 110px;
   margin-right: 20px;

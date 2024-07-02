@@ -12,6 +12,15 @@ const snakeCase = string => {
     .join('_');
 };
 
+function toTitleCase(str) {
+  return str.replace(
+    /\w\S*/g,
+    function(txt) {
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    }
+  );
+}
+
 fetch("../data/parish_information.json")
   .then(response => response.json())
   .then(parish_json_info => {
@@ -38,7 +47,7 @@ fetch("../data/parish_information.json")
             }
             else{
               list_of_locations.insertAdjacentHTML('beforeend', 
-              `<li class="place ${snakeCase(location_name)}" onclick="ToggleLocationInformation('${name.toLowerCase()}-branch', '${snakeCase(location_name)}')"> 
+              `<li class="place ${snakeCase(location_name)}" onclick="ToggleLocationInformation('${name.toLowerCase()}-branch', '${snakeCase(location_name)}'), RecreateBorder('${name.toLowerCase()}-branch')"> 
                 <div class="place-heading clickable"> 
                   <p class="name">${location_name}</p>
                   <div class="rating-hightlight rating-overall">${DisplayStarRating(location_information[location_name]['overall-rating'])}</div>
@@ -50,6 +59,28 @@ fetch("../data/parish_information.json")
         })
       };
     });
+    
+    parishes = document.querySelectorAll('.parish-info');
+    parishes.forEach(parish =>{
+      if(parish.classList.contains('parish-info2')){
+        let anchor = parish.querySelector('.coffee-branch').querySelector('.middle');
+        anchor.insertAdjacentHTML('beforebegin','<div class="top-border"></div>')
+        anchor.insertAdjacentHTML('beforeend','<div class="side-border"></div>')
+        anchor.insertAdjacentHTML('afterend','<div class="bottom-border"></div>')
+        parish.querySelector('.top-border').style.left = -20 + 'px';
+        parish.querySelector('.side-border').style.left = -10 + 'px';
+        parish.querySelector('.bottom-border').style.left = -20 + 'px';
+        parish.querySelector('.top-border').style.right = 20 + 'px';
+        parish.querySelector('.side-border').style.right = 10 + 'px';
+        parish.querySelector('.bottom-border').style.right = 20 + 'px';
+      }
+      else{
+        let anchor = parish.querySelector('.coffee-branch').querySelector('.middle');
+        anchor.insertAdjacentHTML('beforebegin','<div class="top-border"></div>')
+        anchor.insertAdjacentHTML('afterbegin','<div class="side-border"></div>')
+        anchor.insertAdjacentHTML('afterend','<div class="bottom-border"></div>')
+      }
+    });
   }
 );
 
@@ -57,8 +88,16 @@ fetch("../data/parish_information.json")
 function ToggleLocationInformation(branch_name, name){
   current_location = document.getElementById(branch_name).querySelector(`.${name}`);
   wifi_local = null;
+  
   if(name.includes('_')){
-    name = `${toTitleCase(name.split('_')[0])} ${toTitleCase(name.split('_')[1])}`}
+    let fillers_found = (name.match(new RegExp("_", "g")) || []).length;
+    let temp_name = `${toTitleCase(name.split('_')[0])}`;
+
+    for(let i = 1; i <= fillers_found; i++){
+      temp_name += ` ${toTitleCase(name.split('_')[i])}`
+    }
+    name = temp_name;
+  }
   else{
     name = toTitleCase(name)
   }
@@ -71,6 +110,10 @@ function ToggleLocationInformation(branch_name, name){
   }
   else{
     current_parish =  toTitleCase(branch_name.split("-")[0]);
+    if(current_parish.includes('.')){
+      current_parish =  toTitleCase(branch_name.split("-")[0]).split(".");
+      current_parish = `${current_parish[0]}.${toTitleCase(current_parish[1])}`
+    }
     data[0].forEach(parish =>{
       for(let parish_name in parish){
         if(parish_name === current_parish){
@@ -78,7 +121,6 @@ function ToggleLocationInformation(branch_name, name){
             for(place_name in wifi_spot){
               if (place_name === name){
                 wifi_local = wifi_spot;
-                console.log(wifi_local)
               }
             }
           })
@@ -92,7 +134,7 @@ function ToggleLocationInformation(branch_name, name){
     <div class="place-info">
     <img class="location-image" src="../static/image/Left Arm.png">
     <div class="review-block">
-      <p class="description">${wifi_local[name]['description']}</p>
+      <p class="description">${wifi_local[`${name}`]['description']}</p>
       <div class="ratings">
         <div class="coffee-rating">
           <p class="rating">Kofe:</p>
@@ -159,6 +201,46 @@ function ToggleBranch(location_branch){
   else{
     branch.classList.remove('visible')
     branch.classList.add('not-visible')
+  }
+}
+
+function RecreateBorder(location_branch){
+  current_branch = document.getElementById(`${location_branch}`);
+  all_border_icons = current_branch.querySelector('.side-border').querySelectorAll('.border-icon');
+  all_border_icons
+  .forEach(icon =>{
+    icon.remove();
+  });
+  ToggleBorder(location_branch);
+}
+
+
+function ToggleBorder(location_branch){
+  let branch = document.getElementById(location_branch);
+  let icon_size = 30;
+  let amount_to_add = branch.offsetWidth / icon_size;
+
+  for(let i = 0; i < amount_to_add; i++){
+    if(i % 2 == 0){
+      branch.querySelector('.top-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/beans.png">`);
+      branch.querySelector('.bottom-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/beans.png">`);
+    }
+    else{
+      let leaves1_or_leaves2 = Math.random();
+      branch.querySelector('.top-border').insertAdjacentHTML('beforeend', `<img class="border-leaves border-icon" src="../static/icons/leaves.png">`)
+      branch.querySelector('.bottom-border').insertAdjacentHTML('beforeend', `<img class="border-leaves border-icon" src="../static/icons/leaves.png">`)
+    }
+  }
+  if(branch.classList.contains('visible')){
+    amount_to_add = branch.querySelector('.middle').offsetHeight / icon_size;
+    for(let i = 0; i < amount_to_add; i++){
+      if(i % 2 == 0){
+        branch.querySelector('.side-border').insertAdjacentHTML('beforeend', `<img class="border-leaves border-icon" src="../static/icons/leaves.png">`)
+      }
+      else{
+        branch.querySelector('.side-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/beans.png">`);
+      }
+    }
   }
 }
 
@@ -240,15 +322,6 @@ function DisplayStarRating(rating){
     <img class="star star4" src="../static/icons/full star.png">
     <img class="star star5" src="../static/icons/full star.png">`
   }
-}
-
-function toTitleCase(str) {
-  return str.replace(
-    /\w\S*/g,
-    function(txt) {
-      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-    }
-  );
 }
 
 setInterval(JiggleBean, 1200)
