@@ -79,7 +79,7 @@ function Bean_Tuning(bean) {
   bean.style.animationDelay = (Math.random() * 20) + 's';
   
   if(current_page.classList.contains('home')){
-  bean.style.setProperty('--end_pos', '9935px');
+  bean.style.setProperty('--end_pos', '9880px');
   }
   else if(current_page.classList.contains('about')){
     bean.style.setProperty('--end_pos', '630px');

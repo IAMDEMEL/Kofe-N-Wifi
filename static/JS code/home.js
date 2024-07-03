@@ -47,7 +47,7 @@ fetch("../data/parish_information.json")
             }
             else{
               list_of_locations.insertAdjacentHTML('beforeend', 
-              `<li class="place ${snakeCase(location_name)}" onclick="ToggleLocationInformation('${name.toLowerCase()}-branch', '${snakeCase(location_name)}'), RecreateBorder('${name.toLowerCase()}-branch')"> 
+              `<li class="place ${snakeCase(location_name)}" onclick="ToggleLocationInformation('${name.toLowerCase()}-branch', '${snakeCase(location_name)}'), ToggleBorder('${name.toLowerCase()}-branch')"> 
                 <div class="place-heading clickable"> 
                   <p class="name">${location_name}</p>
                   <div class="rating-hightlight rating-overall">${DisplayStarRating(location_information[location_name]['overall-rating'])}</div>
@@ -204,33 +204,32 @@ function ToggleBranch(location_branch){
   }
 }
 
-function RecreateBorder(location_branch){
+function ToggleBorder(location_branch){
+  let branch = document.getElementById(location_branch);
+  let icon_size = 30;
+  let amount_to_add = branch.offsetWidth / icon_size;
+
+  
   current_branch = document.getElementById(`${location_branch}`);
   all_border_icons = current_branch.querySelector('.side-border').querySelectorAll('.border-icon');
   all_border_icons
   .forEach(icon =>{
     icon.remove();
   });
-  ToggleBorder(location_branch);
-}
-
-
-function ToggleBorder(location_branch){
-  let branch = document.getElementById(location_branch);
-  let icon_size = 30;
-  let amount_to_add = branch.offsetWidth / icon_size;
-
-  for(let i = 0; i < amount_to_add; i++){
-    if(i % 2 == 0){
-      branch.querySelector('.top-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/beans.png">`);
-      branch.querySelector('.bottom-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/beans.png">`);
-    }
-    else{
-      let leaves1_or_leaves2 = Math.random();
-      branch.querySelector('.top-border').insertAdjacentHTML('beforeend', `<img class="border-leaves border-icon" src="../static/icons/leaves.png">`)
-      branch.querySelector('.bottom-border').insertAdjacentHTML('beforeend', `<img class="border-leaves border-icon" src="../static/icons/leaves.png">`)
+  
+  if(branch.querySelector('.top-border').querySelectorAll('.border-icon').length == 0){
+    for(let i = 0; i < amount_to_add; i++){
+      if(i % 2 == 0){
+        branch.querySelector('.top-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/beans.png">`);
+        branch.querySelector('.bottom-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/beans.png">`);
+      }
+      else{
+        branch.querySelector('.top-border').insertAdjacentHTML('beforeend', `<img class="border-leaves border-icon" src="../static/icons/leaves.png">`)
+        branch.querySelector('.bottom-border').insertAdjacentHTML('beforeend', `<img class="border-leaves border-icon" src="../static/icons/leaves.png">`)
+      }
     }
   }
+
   if(branch.classList.contains('visible')){
     amount_to_add = branch.querySelector('.middle').offsetHeight / icon_size;
     for(let i = 0; i < amount_to_add; i++){
@@ -241,6 +240,21 @@ function ToggleBorder(location_branch){
         branch.querySelector('.side-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/beans.png">`);
       }
     }
+  }
+
+  ToggleBeanFallDistance();
+}
+
+function ToggleBeanFallDistance() {
+  let rows_of_beans_to_spawn = 3;
+  for (let row = 1; row <= rows_of_beans_to_spawn; row++) {
+    let all_beans = document.querySelectorAll(`.falling-bean-${row}`);
+    current_page_height = document.querySelector('body').offsetHeight;
+    all_beans.forEach(bean => {
+      new_page_height = (current_page_height - 71) + 'px';
+      bean.style.setProperty('--end_pos', `${new_page_height}`);
+      console.log(new_page_height);
+    });
   }
 }
 
