@@ -1,0 +1,349 @@
+.hero{
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-direction: row;
+  justify-content: right;
+  background-color: rgb(28, 10, 0);
+}
+.hero-heading-text{
+  font-size: 50px;
+  font-weight: 550;
+  padding: 20px;
+  color: rgb(34, 155, 34);
+}
+.hero-heading-text .yellow{
+  color: yellow;
+}
+.hero-heading-text .coffee{
+  color: black;
+}
+.hero-heading-text .white{
+  color: white;
+}
+.hero-jamaica{
+  font-size: 70px;
+}
+.image-block{
+  height: 550px;
+  z-index: 9999;
+  position: relative;
+  background-color: rgb(28, 10, 0);
+}
+.hero-image{
+  opacity: 50%;
+  height: 550px;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  z-index: 9999;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+}
+.hands{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.arm{
+  width: 700px;
+}
+.location-block{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.bean-block{
+  display: flex;
+  flex-direction: column;
+}
+.bean-image{
+  margin-top: 30px;
+  width: 100px;
+  position: relative;
+  z-index: 100;
+}
+.bean-image p{
+  visibility: hidden;
+  position: absolute;
+  top: -60px;
+  padding: 10px;
+  border-radius: 12px;
+  z-index: 100;
+}
+.highlight0{
+  right:-65px;
+}
+.highlight1{
+  right:-70px;
+}
+.highlight2{
+  right:-75px;
+}
+.highlight3{
+  right:-90px;
+}
+.highlight4{
+  right:-95px;
+}
+.highlight5{
+  right:-110px;
+}
+.highlight6{
+  right:-120px;
+}
+.bean-image:hover p{
+  visibility: visible;
+  font-size: 24px;
+  color: white;
+  background-color: rgb(28, 10, 0);
+}
+
+.bean1{
+  height: 110px;
+}
+.bean{
+  cursor: pointer;
+  width: 100px;
+}
+.bean-highlighted{
+  cursor: pointer;
+  height: 120px;
+  width: 110px;
+}
+
+.parish-info{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.parish-info2{
+  margin-top: 10px;
+  flex-direction: row-reverse;
+}
+.coffee-branch{
+  margin-top: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 1050px;
+}
+
+
+/* Parish Borders */
+.top-border, .bottom-border{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 9999;
+  left: 10px;
+}
+.side-border{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 9999;
+}
+.side-border{
+  left: 10px;
+}
+
+.top-border{
+  top: 5px;
+}
+.bottom-border{
+  bottom: 5px;
+}
+.border-leaves{
+  height: 30px;
+  width: 30px;
+}
+.border-beans{
+  height: 30px;
+  width: 30px;
+}
+
+
+
+
+.middle{
+  position: inherit;
+  display: flex;
+  flex-direction: row;
+  z-index: 100;
+}
+.visible{
+  visibility: visible;
+}
+.not-visible{
+  visibility: hidden;
+  height: 605px;
+}
+
+
+.list-top, .place-heading{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-top{
+  background-color: rgb(18, 10, 0);
+  padding: 0 10px;
+}
+.parish-list{
+  min-width: 576px;
+}
+.parish-information{
+  display: flex;
+  flex-direction: column;
+}
+.parish-information .information{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 10px;
+}
+.list-heading{
+  padding: 15px;
+  font-size: 18px;
+  margin: 0;
+  background-color: rgb(18, 10, 0);
+  color: white;
+}
+.parish-image{
+  width: 300px;
+  margin-right: 20px;
+}
+.close-button{
+  width: 24px;
+}
+
+.place{
+  margin-bottom: 2px;
+}
+.place-heading{
+  background-color: rgb(28, 10, 0);
+  padding: 0 20px;
+}
+.coffee-rating, .wifi-rating, .ratings, .external-url{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rating-highlight, .url-link{
+  position: relative;
+}
+.rating-highlight p, .url-link p{
+  visibility: hidden;
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  padding: 0 10px;
+}
+.rating-highlight:hover p{
+  visibility: visible;
+  background-color: rgb(28, 10, 0);
+  font-size: 15px;
+  color: white;
+}
+.rating{
+  margin-right: 10px;
+}
+.star{
+  width: 15px;
+}
+.place-info{
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(54, 21, 0);
+}
+.description{
+  margin-top: 0;
+}
+.review-block{
+  display: flex;
+  flex-direction: column;
+}
+.location-image{
+  max-width: 300px;
+  max-height: 250px;
+  margin-right: 30px;
+  object-fit: contain;
+  border: 3px solid white;
+}
+.coffee-rating{
+  margin-right: 30px;
+}
+
+.locations-list ul{
+  max-height:385px;
+  overflow-y:scroll;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Bean Placements */
+.hanover{
+  margin-left: 110px;
+  margin-right: 20px;
+}
+.st_james{
+  margin-right: 130px;
+  margin-left: 20px;
+}
+.trelawny, .kingston{
+  margin-left: 90px;
+  margin-right: 20px;
+}
+.st_ann{
+  margin-right: 100px;
+  margin-left: 20px;
+}
+.st_mary{
+  margin-left: 80px;
+  margin-right: 20px;
+}
+.portland, .clarendon{
+  margin-right: 120px;
+  margin-left: 20px;
+}
+.westmoreland{
+  margin-left: 120px;
+  margin-right: 20px;
+}
+.st_elizabeth{
+  margin-right: 135px;
+  margin-left: 20px;
+}
+.manchester{
+  margin-left: 130px;
+  margin-right: 20px;
+}
+.st_catherine{
+  margin-left: 100px;
+  margin-right: 20px;
+}
+.st_andrew{
+  margin-right: 120px;
+  margin-left: 20px;
+}
+.st_thomas{
+  margin-right: 120px;
+  margin-left: 20px;
+}
+
+
+.background-beans{
+  position: relative;
+  z-index: 1;
+}
+.json_parish_data{
+  margin: 0;
+  padding: 0;
+}

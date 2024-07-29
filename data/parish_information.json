@@ -1,0 +1,924 @@
+{
+    "Parishes": [
+        {
+            "Hanover": [
+                {
+                    "Hanover": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Hanover_in_Jamaica.svg/250px-Hanover_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "Hummingbird Coffee House": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPpHD2RdhTOMidKNVlf0Gl47nKFupj97eVdIoPh=w408-h544-k-no",
+                        "coffee-rating": 0.82,
+                        "wifi-rating": 3.48,
+                        "overall-rating": 4.3,
+                        "users-rated": 4,
+                        "address": "Shop 2 Rose Hall Main Road Rose Hall, Hanover, Jamaica",
+                        "url": "https://www.google.com/maps/place/Hummingbird+Coffee+House/data=!4m7!3m6!1s0x8eda294db4c95271:0xde4836b759976c79!8m2!3d18.5223131!4d-77.8408325!16s%2Fg%2F11cs5n0jn6!19sChIJcVLJtE0p2o4ReWyXWbc2SN4?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Miss Lous": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipNufaauSPWdoHGpvu9SXkoghL2haXPHGVHQl1HZ=w408-h544-k-no",
+                        "coffee-rating": 0.8,
+                        "wifi-rating": 4.1,
+                        "overall-rating": 4.9,
+                        "users-rated": 10,
+                        "address": "FR5X+98C, Hanover, Jamaica",
+                        "url": "https://www.google.com/maps/place/Miss+Lou%27s/data=!4m7!3m6!1s0x8ed99de921c62359:0xb2f4c6a4eff0288e!8m2!3d18.4584323!4d-78.1517319!16s%2Fg%2F11hz__k4k0!19sChIJWSPGIemd2Y4Rjijw76TG9LI?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Peppe Monte Cafe And Grill": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipNOanQhevVb8dWOBrApJfDB6NnyUj326OjqpQzP=w408-h544-k-no",
+                        "coffee-rating": 0.55,
+                        "wifi-rating": 3.95,
+                        "overall-rating": 4.5,
+                        "users-rated": 54,
+                        "address": "Esher main road, Hanover, Jamaica",
+                        "url": "https://www.google.com/maps/place/Peppe+monte+cafe+and+Grill/data=!4m7!3m6!1s0x8ed99df9192dae7b:0x60edd9a76e17c73a!8m2!3d18.4519037!4d-78.1947001!16s%2Fg%2F11smx9t0m0!19sChIJe64tGfmd2Y4ROscXbqfZ7WA?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Hilton Rose Hall Cafe And Coffee Shop": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipP2CELFp2h8sldWliqh8yrxdXk2PPmnm9O-PPEV=w408-h306-k-no",
+                        "coffee-rating": 3.0,
+                        "wifi-rating": 1.6,
+                        "overall-rating": 4.6,
+                        "users-rated": 30,
+                        "address": "G5CQ+GMG, A1, Hanover, Jamaica",
+                        "url": "https://www.google.com/maps/place/Hilton+Rose+Hall+Cafe+and+coffee+shop/data=!4m7!3m6!1s0x8eda2f2cc36b1035:0xef698862bfefd495!8m2!3d18.521302!4d-77.8107905!16s%2Fg%2F11hymmfhvh!19sChIJNRBrwywv2o4RldTvv2KIae8?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Coco Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipP0jOGrQ33hbzNGuUh9Zw4Kis5GFK0CByZsSJ1T=w493-h240-k-no",
+                        "coffee-rating": 0.05,
+                        "wifi-rating": 4.65,
+                        "overall-rating": 4.7,
+                        "users-rated": 12,
+                        "address": "F352+G4J, Hanover, Jamaica",
+                        "url": "https://www.google.com/maps/place/Coco+Cafe/data=!4m7!3m6!1s0x8ed9813e5263bf91:0x1112f855499d6e7c!8m2!3d18.4588285!4d-77.9497452!16s%2Fg%2F11j7d3gcvw!19sChIJkb9jUj6B2Y4RfG6dSVX4EhE?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        },
+        {
+            "St.James": [
+                {
+                    "St.James": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Saint_James_in_Jamaica.svg/250px-Saint_James_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "Coco Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipP0jOGrQ33hbzNGuUh9Zw4Kis5GFK0CByZsSJ1T=w493-h240-k-no",
+                        "coffee-rating": 3.88,
+                        "wifi-rating": 0.82,
+                        "overall-rating": 4.7,
+                        "users-rated": 12,
+                        "address": "F352+G4J, St.James, Jamaica",
+                        "url": "https://www.google.com/maps/place/Coco+Cafe/data=!4m7!3m6!1s0x8ed9813e5263bf91:0x1112f855499d6e7c!8m2!3d18.4588285!4d-77.9497452!16s%2Fg%2F11j7d3gcvw!19sChIJkb9jUj6B2Y4RfG6dSVX4EhE?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Cafe Blue": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipM74vzctI2vh3K0AR4SD_NUnHtXecxZOfsrKibZ=w408-h272-k-no",
+                        "coffee-rating": 1.26,
+                        "wifi-rating": 3.04,
+                        "overall-rating": 4.3,
+                        "users-rated": 540,
+                        "address": "F34F+4QX, Alice Eldemire Dr, St.James, Jamaica",
+                        "url": "https://www.google.com/maps/place/Cafe+Blue/data=!4m7!3m6!1s0x8eda2a82d148887f:0x7cf6360f4fdff44a!8m2!3d18.4553605!4d-77.9255023!16s%2Fg%2F1ptxnv0r8!19sChIJf4hI0YIq2o4RSvTfTw829nw?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Starbucks Coffee": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipMGgpAGBdYgKsP57BP4bhVXabigpx6iyMRbeN8x=w408-h306-k-no",
+                        "coffee-rating": 4.2,
+                        "wifi-rating": 0.2,
+                        "overall-rating": 4.4,
+                        "users-rated": 656,
+                        "address": "F3PC+MCG, St.James, Jamaica",
+                        "url": "https://www.google.com/maps/place/Starbucks+Coffee/data=!4m7!3m6!1s0x8ed9809e2e1ff3b1:0x635369130d6ac1d3!8m2!3d18.4866889!4d-77.928909!16s%2Fg%2F11gcmqypjb!19sChIJsfMfLp6A2Y4R08FqDRNpU2M?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Mandys Express Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipN_6n2-1ghMrEx36pTrlHCmYZgNayPvNKZxgLyQ=w408-h306-k-no",
+                        "coffee-rating": 4.36,
+                        "wifi-rating": 0.34,
+                        "overall-rating": 4.7,
+                        "users-rated": 28,
+                        "address": "Barnett Oval, 36 Miriam Way, St.James, Jamaica",
+                        "url": "https://www.google.com/maps/place/Mandy%27s+Express+Cafe/data=!4m7!3m6!1s0x8eda2b5d0829719d:0xf43a4332fc2fdfd8!8m2!3d18.4641439!4d-77.914445!16s%2Fg%2F11np2ys5l0!19sChIJnXEpCF0r2o4R2N8v_DJDOvQ?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Coffee And Spice": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipNTwGKK5lKsImzWrslnhcxQEHgxtlgUhNxAk1vD=w408-h306-k-no",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "24 A1, St.James, Jamaica",
+                        "url": "https://www.google.com/maps/place/Coffee+%26+Spice/data=!4m7!3m6!1s0x8eda2b1bd2d1c823:0xcaef03e2339a01b1!8m2!3d18.4987464!4d-77.91577!16s%2Fg%2F11ng22txxb!19sChIJI8jR0hsr2o4RsQGaM-ID78o?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        },
+        {
+            "Trelawny": [
+                {
+                    "Trelawny": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Trelawny_in_Jamaica.svg/250px-Trelawny_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "Wallenford Coffee Company": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipOoSJj1HDXPULDarPB2hSK_vnpAmWAtSCjMl1W-=w408-h544-k-no",
+                        "coffee-rating": 3.98,
+                        "wifi-rating": 0.12,
+                        "overall-rating": 4.1,
+                        "users-rated": 58,
+                        "address": "80 Marcus Garvey Dr, Trelawny, Jamaica",
+                        "url": "https://www.google.com/maps/place/Wallenford+Coffee+Company/data=!4m7!3m6!1s0x8edb3ff9dffd204f:0xd10c0f4fb6bcc9b9!8m2!3d17.9775232!4d-76.8148714!16s%2Fg%2F12lkz8sdk!19sChIJTyD93_k_244Rucm8tk8PDNE?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Coffee Roasters Of Jamaica Ltd": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipN846DaGC16mbNaYX2Nwghg1TfFrXcrLnWcBWv3=w408-h725-k-no",
+                        "coffee-rating": 1.07,
+                        "wifi-rating": 3.23,
+                        "overall-rating": 4.3,
+                        "users-rated": 45,
+                        "address": "Unit 3, 69-75 Constant Spring Rd, Trelawny, Jamaica",
+                        "url": "https://www.google.com/maps/place/Country+Traders+Ltd.+%2F+Coffee+Roasters+of+Jamaica+Ltd./data=!4m7!3m6!1s0x8edb3e4bf5694465:0x4dcb533aad7dbc55!8m2!3d18.0228468!4d-76.7969558!16s%2Fg%2F1tjtkb1r!19sChIJZURp9Us-244RVbx9rTpTy00?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Aroma": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipP0wjyNZa8zTIOa8f8LkGUR3vP5fQUDC3fByCQE=w408-h306-k-no",
+                        "coffee-rating": 3.99,
+                        "wifi-rating": 0.31,
+                        "overall-rating": 4.3,
+                        "users-rated": 8,
+                        "address": "F9R7+CMW, Oyster Bay Peninsula Coopers Pen, Trelawny, Jamaica",
+                        "url": "https://www.google.com/maps/place/Aroma/data=!4m7!3m6!1s0x8eda35f137e4e401:0xfa6fd46e7b17efb6!8m2!3d18.4911144!4d-77.6357836!16s%2Fg%2F11rq9q6v_t!19sChIJAeTkN_E12o4Rtu8Xe27Ub_o?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Jamaica Blue Mountain Coffee": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPzIQ0H8NIXvps0EI_41aZNfWumqotJ5M4MH5Wt=w408-h306-k-no",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "G32P+V5X Sangster International Airport Concourse, Trelawny, Jamaica",
+                        "url": "https://www.google.com/maps/place/Jamaica+Blue+Mountain+Coffee/data=!4m7!3m6!1s0x8eda2b1f350bba47:0x8eb9d61a94561203!8m2!3d18.502229!4d-77.9145169!16s%2Fg%2F11tj70y72w!19sChIJR7oLNR8r2o4RAxJWlBrWuY4?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Ragamuffin Coffee Bar": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipMo_nXTQMsIrPYe60o4eVfulSB99JKA08Ow8IEE=w426-h240-k-no",
+                        "coffee-rating": 2.95,
+                        "wifi-rating": 1.55,
+                        "overall-rating": 4.5,
+                        "users-rated": 281,
+                        "address": "74 Lady Musgrave Rd, Trelawny, Jamaica",
+                        "url": "https://www.google.com/maps/place/Ragamuffin+Coffee+Bar/data=!4m7!3m6!1s0x8edb3faab5fc77e3:0xd5202e165c63553d!8m2!3d18.0162193!4d-76.7806773!16s%2Fg%2F11g_z3tf31!19sChIJ43f8tao_244RPVVjXBYuINU?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        },
+        {
+            "Westmoreland": [
+                {
+                    "Westmoreland": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Westmoreland_in_Jamaica.svg/250px-Westmoreland_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "Patsys Coffeeshop": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipMSnVhkTEu2n85qmUSTpx2e_q2Sv9PSzuoknaKp=w408-h306-k-no",
+                        "coffee-rating": 1.92,
+                        "wifi-rating": 2.68,
+                        "overall-rating": 4.6,
+                        "users-rated": 426,
+                        "address": "One Love Drive, W End Rd, Westmoreland, Jamaica",
+                        "url": "https://www.google.com/maps/place/Patsy%27s+Coffeeshop/data=!4m7!3m6!1s0x8ed90d9499dd4729:0x3adfc955eba191f2!8m2!3d18.2785709!4d-78.3597122!16s%2Fg%2F11g6lvsjnb!19sChIJKUfdmZQN2Y4R8pGh61XJ3zo?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Francescos Coffeeshop": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipO2QyxYFwqcBYxWK8CPxp4Xca_nWw5-Elriy5q4=w426-h240-k-no",
+                        "coffee-rating": 0.86,
+                        "wifi-rating": 3.44,
+                        "overall-rating": 4.3,
+                        "users-rated": 13,
+                        "address": "7MQ5+PHF At Jamaica tamboo, Westmoreland, Jamaica",
+                        "url": "https://www.google.com/maps/place/Francesco%27s+coffeeShop/data=!4m7!3m6!1s0x8ed90d693b52145b:0x4dddcff28fd8499f!8m2!3d18.2893228!4d-78.3410818!16s%2Fg%2F11h5s2qlzh!19sChIJWxRSO2kN2Y4Rn0nYj_LP3U0?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Island Coffees Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipM8iOMSkZ1BV77mbBZY1kK0W5mjkBmFXZbsxJMG=w408-h306-k-no",
+                        "coffee-rating": 2.87,
+                        "wifi-rating": 0.33,
+                        "overall-rating": 3.2,
+                        "users-rated": 9,
+                        "address": "Ocean Boulevard, Downtown, Westmoreland, Jamaica",
+                        "url": "https://www.google.com/maps/place/Island+Coffees+Cafe/data=!4m7!3m6!1s0x8edb41380689e299:0x552ebe6221d00cf2!8m2!3d17.9635943!4d-76.793118!16s%2Fg%2F11v19t1w7b!19sChIJmeKJBjhB244R8gzQIWK-LlU?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Cafe West": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPXodgEdPzBM5ye9Y97TBjUpjS1a4PQVXkja2JF=w408-h576-k-no",
+                        "coffee-rating": 0.94,
+                        "wifi-rating": 4.06,
+                        "overall-rating": 5.0,
+                        "users-rated": 1,
+                        "address": "West End, Westmoreland, Jamaica",
+                        "url": "https://www.google.com/maps/place/Cafe+West/data=!4m7!3m6!1s0x8ed913456a49f4af:0xc1c1d217784c1e22!8m2!3d18.2558883!4d-78.3645312!16s%2Fg%2F11vm600qgb!19sChIJr_RJakUT2Y4RIh5MeBfSwcE?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Devon House I Scream": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipN5zjMPg4n0VQ45BPhJS_QxHBpxyYvmaLChELHi=w408-h544-k-no",
+                        "coffee-rating": 0.87,
+                        "wifi-rating": 3.63,
+                        "overall-rating": 4.5,
+                        "users-rated": 6215,
+                        "address": "5 Kingsway, Westmoreland, Jamaica",
+                        "url": "https://www.google.com/maps/place/Devon+House+I+Scream/data=!4m7!3m6!1s0x8edb3efef652c299:0x8dc57b9890cf4464!8m2!3d18.0153925!4d-76.7898705!16s%2Fg%2F1tcwxsh5!19sChIJmcJS9v4-244RZETPkJh7xY0?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        },
+        {
+            "St.Elizabeth": [
+                {
+                    "St.Elizabeth": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Saint_Elizabeth_in_Jamaica.svg/1280px-Saint_Elizabeth_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "24 Seven Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPJq0Xt7THW54a4VoXhOYVLefI2u4N_ytMnkTSv=w408-h544-k-no",
+                        "coffee-rating": 3.1,
+                        "wifi-rating": 0.9,
+                        "overall-rating": 4.0,
+                        "users-rated": 283,
+                        "address": "81 Knutsford Blvd, St.Elizabeth, Jamaica",
+                        "url": "https://www.google.com/maps/place/24+Seven+Cafe/data=!4m7!3m6!1s0x8edb3fa48b6020bf:0xc57cd5337bce78d1!8m2!3d18.0034632!4d-76.7885318!16s%2Fg%2F11c5_8jfdy!19sChIJvyBgi6Q_244R0XjOezPVfMU?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Deaf Can Coffee": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipNsgRmCiteM1RlXa312PehGs2eNPLfLpjjz6neR=w408-h544-k-no",
+                        "coffee-rating": 2.12,
+                        "wifi-rating": 2.78,
+                        "overall-rating": 4.9,
+                        "users-rated": 28,
+                        "address": "58 Half Way Tree Road, St.Elizabeth, Jamaica",
+                        "url": "https://www.google.com/maps/place/Deaf+Can+Coffee/data=!4m7!3m6!1s0x8edb3fdc96943de3:0x1a86bd6991d0506e!8m2!3d18.0041446!4d-76.7914929!16s%2Fg%2F11h21yzyzy!19sChIJ4z2Ultw_244RblDQkWm9hho?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Tea Tree Crperie": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipN6uUIqpCF-Hi46JK9QIV5jiMZRvaGZeEm0fsAz=w408-h306-k-no",
+                        "coffee-rating": 4.12,
+                        "wifi-rating": 0.18,
+                        "overall-rating": 4.3,
+                        "users-rated": 1190,
+                        "address": "Summit, 16 Chelsea Ave, St.Elizabeth, Jamaica",
+                        "url": "https://www.google.com/maps/place/Tea+Tree+Cr%C3%AAperie/data=!4m7!3m6!1s0x8edb3effd2c7ec05:0x75fb39356d1715c!8m2!3d18.0073677!4d-76.7926292!16s%2Fg%2F11b5pk8lx6!19sChIJBezH0v8-244RXHHRVpOzXwc?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Devon House I Scream": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipN5zjMPg4n0VQ45BPhJS_QxHBpxyYvmaLChELHi=w408-h544-k-no",
+                        "coffee-rating": 2.49,
+                        "wifi-rating": 2.01,
+                        "overall-rating": 4.5,
+                        "users-rated": 6215,
+                        "address": "5 Kingsway, St.Elizabeth, Jamaica",
+                        "url": "https://www.google.com/maps/place/Devon+House+I+Scream/data=!4m7!3m6!1s0x8edb3efef652c299:0x8dc57b9890cf4464!8m2!3d18.0153925!4d-76.7898705!16s%2Fg%2F1tcwxsh5!19sChIJmcJS9v4-244RZETPkJh7xY0?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "St Elizabeth Municipal Corporation": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.53,
+                        "wifi-rating": 4.47,
+                        "overall-rating": 5.0,
+                        "users-rated": 1,
+                        "address": "30 National Heroes Cir, St.Elizabeth, Jamaica",
+                        "url": "https://www.google.com/maps/place/St.+Elizabeth+Municipal+Corporation/data=!4m7!3m6!1s0x8edb3f9b6e05d9c5:0xcad761bc7a4d8516!8m2!3d17.9852595!4d-76.7866449!16s%2Fg%2F11fqpt937y!19sChIJxdkFbps_244RFoVNerxh18o?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        },
+        {
+            "St.Ann": [
+                {
+                    "St.Ann": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Saint_Ann_in_Jamaica.svg/250px-Saint_Ann_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "Roisa Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPJoaJNmACGcdrgTv_UBEuaXWyIYxclSjLL95BK=w408-h544-k-no",
+                        "coffee-rating": 3.79,
+                        "wifi-rating": 0.71,
+                        "overall-rating": 4.5,
+                        "users-rated": 2,
+                        "address": "34a Passage Fort Dr, St.Ann, Jamaica",
+                        "url": "https://www.google.com/maps/place/ROISA+Cafe/data=!4m7!3m6!1s0x8edb15e93c2ce14d:0xb9928c8682e61b7f!8m2!3d17.9824925!4d-76.8753458!16s%2Fg%2F11t8pf2g02!19sChIJTeEsPOkV244RfxvmgoaMkrk?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Cafe Dolce At Kig": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPN4Cm27tK_oBP1Om6QWjuSMcJxmREPzXq9uf2n=w493-h240-k-no",
+                        "coffee-rating": 1.19,
+                        "wifi-rating": 2.81,
+                        "overall-rating": 4.0,
+                        "users-rated": 96,
+                        "address": "Spanish Town Rd, St.Ann, Jamaica",
+                        "url": "https://www.google.com/maps/place/Caf%C3%A8+Dolce+at+KIG/data=!4m7!3m6!1s0x8edb15847db5bf85:0xe89e2c4a547f2390!8m2!3d18.005227!4d-76.8320009!16s%2Fg%2F11g18zvxq_!19sChIJhb-1fYQV244RkCN_VEosnug?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "24 Seven Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPJq0Xt7THW54a4VoXhOYVLefI2u4N_ytMnkTSv=w408-h544-k-no",
+                        "coffee-rating": 3.8,
+                        "wifi-rating": 0.2,
+                        "overall-rating": 4.0,
+                        "users-rated": 283,
+                        "address": "81 Knutsford Blvd, St.Ann, Jamaica",
+                        "url": "https://www.google.com/maps/place/24+Seven+Cafe/data=!4m7!3m6!1s0x8edb3fa48b6020bf:0xc57cd5337bce78d1!8m2!3d18.0034632!4d-76.7885318!16s%2Fg%2F11c5_8jfdy!19sChIJvyBgi6Q_244R0XjOezPVfMU?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Yellohaute N More": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipOpFM5wBcuF4pAuuzmD_-f4B4gBQeyMtjAIRi5n=w408-h306-k-no",
+                        "coffee-rating": 4.55,
+                        "wifi-rating": 0.45,
+                        "overall-rating": 5.0,
+                        "users-rated": 1,
+                        "address": "Lot 789 Phae 2 Seaview Gardens Kingston 11, St.Ann, Jamaica",
+                        "url": "https://www.google.com/maps/place/Yellohaute+N+More/data=!4m7!3m6!1s0x8edb152bb2147449:0xf3ed0eabf5f57734!8m2!3d18.0047776!4d-76.8389127!16s%2Fg%2F11px9r66h4!19sChIJSXQUsisV244RNHf19asO7fM?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Daves Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "X5XC+HPM, Majestic Pen Rd, St.Ann, Jamaica",
+                        "url": "https://www.google.com/maps/place/Dave%27s+Cafe/data=!4m7!3m6!1s0x8edb152d83d4ec83:0x8e2dd0217e0564d7!8m2!3d17.9989695!4d-76.8282091!16s%2Fg%2F11h116wptb!19sChIJg-zUgy0V244R12QFfiHQLY4?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        },
+        {
+            "St.Mary": [
+                {
+                    "St.Mary": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Saint_Mary_in_Jamaica.svg/250px-Saint_Mary_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "Cuttys": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPXVY3liWgFPvAVm7jN_irfskd-lGsDQ0ws-5OL=w408-h544-k-no",
+                        "coffee-rating": 2.14,
+                        "wifi-rating": 2.06,
+                        "overall-rating": 4.2,
+                        "users-rated": 10,
+                        "address": "X5JV+PQJ, 1st St, St.Mary, Jamaica",
+                        "url": "https://www.google.com/maps/place/Cutty%27s/data=!4m7!3m6!1s0x8edb3ff256407d4b:0x98a601f21c6dd0f9!8m2!3d17.9818397!4d-76.8056113!16s%2Fg%2F1x5fcdz6!19sChIJS31AVvI_244R-dBtHPIBppg?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Coffee And Cream Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "X6V5+5P9, St.Mary, Jamaica",
+                        "url": "https://www.google.com/maps/place/Coffee+and+Cream+Cafe/data=!4m7!3m6!1s0x8edb3fe29fe8b6bd:0xc9845dfd19d44ca0!8m2!3d17.9929219!4d-76.7906309!16s%2Fg%2F11rv60fkr6!19sChIJvbbon-I_244RoEzUGf1dhMk?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Cafe Dolce At Kig": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPN4Cm27tK_oBP1Om6QWjuSMcJxmREPzXq9uf2n=w493-h240-k-no",
+                        "coffee-rating": 3.44,
+                        "wifi-rating": 0.56,
+                        "overall-rating": 4.0,
+                        "users-rated": 96,
+                        "address": "Spanish Town Rd, St.Mary, Jamaica",
+                        "url": "https://www.google.com/maps/place/Caf%C3%A8+Dolce+at+KIG/data=!4m7!3m6!1s0x8edb15847db5bf85:0xe89e2c4a547f2390!8m2!3d18.005227!4d-76.8320009!16s%2Fg%2F11g18zvxq_!19sChIJhb-1fYQV244RkCN_VEosnug?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Coffees Of Jamaica": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "5 Oxford Park Avenue, St.Mary, Jamaica",
+                        "url": "https://www.google.com/maps/place/Coffees+Of+Jamaica/data=!4m7!3m6!1s0x8edb3fa6c8214407:0xb65bb6aa1ec588f2!8m2!3d18.000998!4d-76.7841476!16s%2Fg%2F11flzh432g!19sChIJB0QhyKY_244R8ojFHqq2W7Y?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "24 Seven Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPJq0Xt7THW54a4VoXhOYVLefI2u4N_ytMnkTSv=w408-h544-k-no",
+                        "coffee-rating": 0.82,
+                        "wifi-rating": 3.18,
+                        "overall-rating": 4.0,
+                        "users-rated": 283,
+                        "address": "81 Knutsford Blvd, St.Mary, Jamaica",
+                        "url": "https://www.google.com/maps/place/24+Seven+Cafe/data=!4m7!3m6!1s0x8edb3fa48b6020bf:0xc57cd5337bce78d1!8m2!3d18.0034632!4d-76.7885318!16s%2Fg%2F11c5_8jfdy!19sChIJvyBgi6Q_244R0XjOezPVfMU?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        },
+        {
+            "Manchester": [
+                {
+                    "Manchester": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Manchester_in_Jamaica.svg/250px-Manchester_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "Hello Tea Coffee And Cake": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipMo8C25ofuvcWYsjXBblCxAxYKhBTe39dgL8ghM=w408-h306-k-no",
+                        "coffee-rating": 3.17,
+                        "wifi-rating": 1.23,
+                        "overall-rating": 4.4,
+                        "users-rated": 18,
+                        "address": "36 Manchester Road, Manchester, Jamaica",
+                        "url": "https://www.google.com/maps/place/Hello+Tea+coffee+%26+Cake/data=!4m7!3m6!1s0x8edbbf7f5e2e64b9:0x81df5616387437f7!8m2!3d18.0358679!4d-77.5069948!16s%2Fg%2F11l2wvkkmw!19sChIJuWQuXn-_244R9zd0OBZW34E?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Omg Restaurant And Coffee Bar": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipObxH3caYaQoLC16qmZdvMGQTyqVD6xtT50cL4Z=w408-h306-k-no",
+                        "coffee-rating": 3.33,
+                        "wifi-rating": 0.37,
+                        "overall-rating": 3.7,
+                        "users-rated": 625,
+                        "address": "1 Brumalia Rd, Manchester, Jamaica",
+                        "url": "https://www.google.com/maps/place/OMG+Restaurant+%26+Coffee+Bar/data=!4m7!3m6!1s0x8edbbe4a2be5d6a7:0xc234d45dece722f1!8m2!3d18.0458281!4d-77.5106303!16s%2Fg%2F1hc165s97!19sChIJp9blK0q-244R8SLn7F3UNMI?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Cafe Blue": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "6 Hargreaves Rd, Manchester, Jamaica",
+                        "url": "https://www.google.com/maps/place/Cafe+Blue/data=!4m7!3m6!1s0x8edbbfa0c1e7b545:0x7f03330ec5e9713a!8m2!3d18.0417585!4d-77.5080988!16s%2Fg%2F11v5b00853!19sChIJRbXnwaC_244ROnHpxQ4zA38?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Bonjour Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipP1lQDgdDO3mY7-1A8zDj1VG0LQqvCr7l8Mfag1=w408-h725-k-no",
+                        "coffee-rating": 2.48,
+                        "wifi-rating": 2.02,
+                        "overall-rating": 4.5,
+                        "users-rated": 2,
+                        "address": "XQC3+C76, Manchester Ave, Manchester, Jamaica",
+                        "url": "https://www.google.com/maps/place/Bonjour+Cafe/data=!4m7!3m6!1s0x8edb9f5ae5fa50b7:0xc6302849a713b9cb!8m2!3d17.9710443!4d-77.2468508!16s%2Fg%2F11g1wnkddl!19sChIJt1D65Vqf244Ry7kTp0koMMY?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "The Hotspot Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPkPg5AHBjE96pvQLB_x_lgsrNdbbEoohoR8T3l=w408-h505-k-no",
+                        "coffee-rating": 3.75,
+                        "wifi-rating": 0.55,
+                        "overall-rating": 4.3,
+                        "users-rated": 8,
+                        "address": "Shop 16, Reliance Center, Manchester, Jamaica",
+                        "url": "https://www.google.com/maps/place/The+Hotspot+Cafe/data=!4m7!3m6!1s0x8edbbfb8e64de4bb:0x23dbb76ba072ed8e!8m2!3d18.0312104!4d-77.504579!16s%2Fg%2F11f612trdd!19sChIJu-RN5ri_244Rju1yoGu32yM?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        },
+        {
+            "Clarendon": [
+                {
+                    "Clarendon": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Clarendon_in_Jamaica.svg/250px-Clarendon_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "Roisa Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPJoaJNmACGcdrgTv_UBEuaXWyIYxclSjLL95BK=w408-h544-k-no",
+                        "coffee-rating": 0.62,
+                        "wifi-rating": 3.88,
+                        "overall-rating": 4.5,
+                        "users-rated": 2,
+                        "address": "34a Passage Fort Dr, Clarendon, Jamaica",
+                        "url": "https://www.google.com/maps/place/ROISA+Cafe/data=!4m7!3m6!1s0x8edb15e93c2ce14d:0xb9928c8682e61b7f!8m2!3d17.9824925!4d-76.8753458!16s%2Fg%2F11t8pf2g02!19sChIJTeEsPOkV244RfxvmgoaMkrk?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Cafe Dolce At Kig": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPN4Cm27tK_oBP1Om6QWjuSMcJxmREPzXq9uf2n=w493-h240-k-no",
+                        "coffee-rating": 1.56,
+                        "wifi-rating": 2.44,
+                        "overall-rating": 4.0,
+                        "users-rated": 96,
+                        "address": "Spanish Town Rd, Clarendon, Jamaica",
+                        "url": "https://www.google.com/maps/place/Caf%C3%A8+Dolce+at+KIG/data=!4m7!3m6!1s0x8edb15847db5bf85:0xe89e2c4a547f2390!8m2!3d18.005227!4d-76.8320009!16s%2Fg%2F11g18zvxq_!19sChIJhb-1fYQV244RkCN_VEosnug?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Daves Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "X5XC+HPM, Majestic Pen Rd, Clarendon, Jamaica",
+                        "url": "https://www.google.com/maps/place/Dave%27s+Cafe/data=!4m7!3m6!1s0x8edb152d83d4ec83:0x8e2dd0217e0564d7!8m2!3d17.9989695!4d-76.8282091!16s%2Fg%2F11h116wptb!19sChIJg-zUgy0V244R12QFfiHQLY4?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Yellohaute N More": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipOpFM5wBcuF4pAuuzmD_-f4B4gBQeyMtjAIRi5n=w408-h306-k-no",
+                        "coffee-rating": 1.9,
+                        "wifi-rating": 3.1,
+                        "overall-rating": 5.0,
+                        "users-rated": 1,
+                        "address": "Lot 789 Phae 2 Seaview Gardens Kingston 11, Clarendon, Jamaica",
+                        "url": "https://www.google.com/maps/place/Yellohaute+N+More/data=!4m7!3m6!1s0x8edb152bb2147449:0xf3ed0eabf5f57734!8m2!3d18.0047776!4d-76.8389127!16s%2Fg%2F11px9r66h4!19sChIJSXQUsisV244RNHf19asO7fM?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Sharon": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "2535+573 jackson ville, Clarendon, Jamaica",
+                        "url": "https://www.google.com/maps/place/sharon/data=!4m7!3m6!1s0x8edb15e678bf895f:0x77184e40dc7e7078!8m2!3d18.0028906!4d-76.8418246!16s%2Fg%2F11qs2l0b1s!19sChIJX4m_eOYV244ReHB-3EBOGHc?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        },
+        {
+            "St.Catherine": [
+                {
+                    "St.Catherine": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Saint_Catherine_in_Jamaica.svg/250px-Saint_Catherine_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "Roisa Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPJoaJNmACGcdrgTv_UBEuaXWyIYxclSjLL95BK=w408-h544-k-no",
+                        "coffee-rating": 3.62,
+                        "wifi-rating": 0.88,
+                        "overall-rating": 4.5,
+                        "users-rated": 2,
+                        "address": "34a Passage Fort Dr, St.Catherine, Jamaica",
+                        "url": "https://www.google.com/maps/place/ROISA+Cafe/data=!4m7!3m6!1s0x8edb15e93c2ce14d:0xb9928c8682e61b7f!8m2!3d17.9824925!4d-76.8753458!16s%2Fg%2F11t8pf2g02!19sChIJTeEsPOkV244RfxvmgoaMkrk?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "The Script Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPXEHFbyyFLi0TUB96VzOPD6rIJv2iccJfcrb5t=w408-h544-k-no",
+                        "coffee-rating": 0.49,
+                        "wifi-rating": 3.91,
+                        "overall-rating": 4.4,
+                        "users-rated": 79,
+                        "address": "31 E Trade Way, St.Catherine, Jamaica",
+                        "url": "https://www.google.com/maps/place/The+Script+Caf%C3%A9/data=!4m7!3m6!1s0x8edb6b26142e6b53:0xd7e2495087069eb9!8m2!3d17.975042!4d-76.8665836!16s%2Fg%2F11f7spykkp!19sChIJU2suFCZr244RuZ4Gh1BJ4tc?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Coffee And Cream Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "X6V5+5P9, St.Catherine, Jamaica",
+                        "url": "https://www.google.com/maps/place/Coffee+and+Cream+Cafe/data=!4m7!3m6!1s0x8edb3fe29fe8b6bd:0xc9845dfd19d44ca0!8m2!3d17.9929219!4d-76.7906309!16s%2Fg%2F11rv60fkr6!19sChIJvbbon-I_244RoEzUGf1dhMk?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Cafe Dolce At Kig": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPN4Cm27tK_oBP1Om6QWjuSMcJxmREPzXq9uf2n=w493-h240-k-no",
+                        "coffee-rating": 2.65,
+                        "wifi-rating": 1.35,
+                        "overall-rating": 4.0,
+                        "users-rated": 96,
+                        "address": "Spanish Town Rd, St.Catherine, Jamaica",
+                        "url": "https://www.google.com/maps/place/Caf%C3%A8+Dolce+at+KIG/data=!4m7!3m6!1s0x8edb15847db5bf85:0xe89e2c4a547f2390!8m2!3d18.005227!4d-76.8320009!16s%2Fg%2F11g18zvxq_!19sChIJhb-1fYQV244RkCN_VEosnug?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Sunrise Coffee On The Go": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "2 Hope Rd, St.Catherine, Jamaica",
+                        "url": "https://www.google.com/maps/place/Sunrise+Coffee+On+The+Go/data=!4m7!3m6!1s0x8edb3f00249f605f:0x8fa873d0b988d25e!8m2!3d18.0111978!4d-76.7965552!16s%2Fg%2F11vrk3b137!19sChIJX2CfJAA_244RXtKIudBzqI8?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        },
+        {
+            "Portland": [
+                {
+                    "Portland": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Portland_in_Jamaica.svg/250px-Portland_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "Wallenford Coffee Company": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipOoSJj1HDXPULDarPB2hSK_vnpAmWAtSCjMl1W-=w408-h544-k-no",
+                        "coffee-rating": 1.47,
+                        "wifi-rating": 2.63,
+                        "overall-rating": 4.1,
+                        "users-rated": 58,
+                        "address": "80 Marcus Garvey Dr, Portland, Jamaica",
+                        "url": "https://www.google.com/maps/place/Wallenford+Coffee+Company/data=!4m7!3m6!1s0x8edb3ff9dffd204f:0xd10c0f4fb6bcc9b9!8m2!3d17.9775232!4d-76.8148714!16s%2Fg%2F12lkz8sdk!19sChIJTyD93_k_244Rucm8tk8PDNE?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Rocksteady Coffee Farm": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipOTHqZf4eZS7syk6noNmwEGpRF1v5dQMkIxlfdp=w408-h544-k-no",
+                        "coffee-rating": 1.3,
+                        "wifi-rating": 3.7,
+                        "overall-rating": 5.0,
+                        "users-rated": 2,
+                        "address": "Portland Parish Regale, Portland, Jamaica",
+                        "url": "https://www.google.com/maps/place/Rocksteady+Coffee+Farm/data=!4m7!3m6!1s0x8edb3b9bda4ee25d:0xae3cad2d3cc541c2!8m2!3d18.097968!4d-76.7169954!16s%2Fg%2F11f55zhqzy!19sChIJXeJO2ps7244RwkHFPC2tPK4?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Coffee Roasters Of Jamaica Ltd": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipN846DaGC16mbNaYX2Nwghg1TfFrXcrLnWcBWv3=w408-h725-k-no",
+                        "coffee-rating": 0.69,
+                        "wifi-rating": 3.61,
+                        "overall-rating": 4.3,
+                        "users-rated": 45,
+                        "address": "Unit 3, 69-75 Constant Spring Rd, Portland, Jamaica",
+                        "url": "https://www.google.com/maps/place/Country+Traders+Ltd.+%2F+Coffee+Roasters+of+Jamaica+Ltd./data=!4m7!3m6!1s0x8edb3e4bf5694465:0x4dcb533aad7dbc55!8m2!3d18.0228468!4d-76.7969558!16s%2Fg%2F1tjtkb1r!19sChIJZURp9Us-244RVbx9rTpTy00?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Blue Patio Limited": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipOygmIGug6Z7qd5rJKrA5z6BJu3Y1MoLuQIJWVa=w408-h306-k-no",
+                        "coffee-rating": 0.04,
+                        "wifi-rating": 4.36,
+                        "overall-rating": 4.4,
+                        "users-rated": 44,
+                        "address": "Spring Hill District Spring Hill, Portland, Jamaica",
+                        "url": "https://www.google.com/maps/place/Blue+Patio+Limited/data=!4m7!3m6!1s0x8ec4cdf1fb6b4b85:0x4ba39b1ba684bf74!8m2!3d18.1215876!4d-76.7152517!16s%2Fg%2F11s3wt1kl3!19sChIJhUtr-_HNxI4RdL-Ephubo0s?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Blue Mountain Coffee Venture Limited": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "9 Courtney Walsh Dr, Portland, Jamaica",
+                        "url": "https://www.google.com/maps/place/Blue+Mountain+Coffee+Venture+Limited/data=!4m7!3m6!1s0x8edb3fb5a7b4f2d3:0xf83109b3ae597a06!8m2!3d18.0136119!4d-76.8000855!16s%2Fg%2F11hyt0tp5t!19sChIJ0_K0p7U_244RBnpZrrMJMfg?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        },
+        {
+            "St.Thomas": [
+                {
+                    "St.Thomas": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Saint_Thomas_in_Jamaica.svg/250px-Saint_Thomas_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                }
+            ]
+        },
+        {
+            "St.Andrew": [
+                {
+                    "St.Andrew": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Saint_Andrew_in_Jamaica.svg/250px-Saint_Andrew_in_Jamaica.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "Coffee And Cream Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "X6V5+5P9, St.Andrew, Jamaica",
+                        "url": "https://www.google.com/maps/place/Coffee+and+Cream+Cafe/data=!4m7!3m6!1s0x8edb3fe29fe8b6bd:0xc9845dfd19d44ca0!8m2!3d17.9929219!4d-76.7906309!16s%2Fg%2F11rv60fkr6!19sChIJvbbon-I_244RoEzUGf1dhMk?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Roisa Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPJoaJNmACGcdrgTv_UBEuaXWyIYxclSjLL95BK=w408-h544-k-no",
+                        "coffee-rating": 1.53,
+                        "wifi-rating": 2.97,
+                        "overall-rating": 4.5,
+                        "users-rated": 2,
+                        "address": "34a Passage Fort Dr, St.Andrew, Jamaica",
+                        "url": "https://www.google.com/maps/place/ROISA+Cafe/data=!4m7!3m6!1s0x8edb15e93c2ce14d:0xb9928c8682e61b7f!8m2!3d17.9824925!4d-76.8753458!16s%2Fg%2F11t8pf2g02!19sChIJTeEsPOkV244RfxvmgoaMkrk?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Blue Mountain Coffee": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "2645+M3J, Chelsea Ave, St.Andrew, Jamaica",
+                        "url": "https://www.google.com/maps/place/Blue+Mountain+Coffee/data=!4m7!3m6!1s0x8edb3fba99d8d68b:0x5f5b876be46dfca0!8m2!3d18.0067099!4d-76.79235!16s%2Fg%2F11h_6q8k8d!19sChIJi9bYmbo_244RoPxt5GuHW18?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Cafe Dolce At Kig": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPN4Cm27tK_oBP1Om6QWjuSMcJxmREPzXq9uf2n=w493-h240-k-no",
+                        "coffee-rating": 2.92,
+                        "wifi-rating": 1.08,
+                        "overall-rating": 4.0,
+                        "users-rated": 96,
+                        "address": "Spanish Town Rd, St.Andrew, Jamaica",
+                        "url": "https://www.google.com/maps/place/Caf%C3%A8+Dolce+at+KIG/data=!4m7!3m6!1s0x8edb15847db5bf85:0xe89e2c4a547f2390!8m2!3d18.005227!4d-76.8320009!16s%2Fg%2F11g18zvxq_!19sChIJhb-1fYQV244RkCN_VEosnug?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Starbucks Half Way Tree": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipOHufTS5SlOKOKEFuJ2Vy2JpEOwizK6DR6MoTha=w408-h542-k-no",
+                        "coffee-rating": 4.05,
+                        "wifi-rating": 0.25,
+                        "overall-rating": 4.3,
+                        "users-rated": 84,
+                        "address": "Half Way Tree Road, St.Andrew, Jamaica",
+                        "url": "https://www.google.com/maps/place/Starbucks+Half+Way+Tree/data=!4m7!3m6!1s0x8edb3fc6de9ad77f:0xebeb912bd3c245dc!8m2!3d18.0162559!4d-76.7964533!16s%2Fg%2F11j_83kg_v!19sChIJf9ea3sY_244R3EXC0yuR6-s?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        },
+        {
+            "Kingston": [
+                {
+                    "Kingston": {
+                        "image-location": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Kingston_in_Jamaica_%28special_marker%29.svg/250px-Kingston_in_Jamaica_%28special_marker%29.svg.png",
+                        "parish-description": "This is a place hold text.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a fringilla lacus, in bibendum leo. Aliquam pharetra lacinia neque. Morbi sed lacus tincidunt, dictum metus a, faucibus erat. Suspendisse efficitur volutpat nunc ac tempus. Fusce commodo, dui eget venenatis commodo, odio sem tempor nibh, non ultrices elit nisl hendrerit lacus. Mauris facilisis massa nisi, eu tincidunt elit facilisis ut. Vivamus vel feugiat nisl. Donec semper elit nibh, eget tincidunt lorem porta ac."
+                    }
+                },
+                {
+                    "24 Seven Cafe": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPJq0Xt7THW54a4VoXhOYVLefI2u4N_ytMnkTSv=w408-h544-k-no",
+                        "coffee-rating": 2.7,
+                        "wifi-rating": 1.3,
+                        "overall-rating": 4.0,
+                        "users-rated": 283,
+                        "address": "81 Knutsford Blvd, Kingston, Jamaica",
+                        "url": "https://www.google.com/maps/place/24+Seven+Cafe/data=!4m7!3m6!1s0x8edb3fa48b6020bf:0xc57cd5337bce78d1!8m2!3d18.0034632!4d-76.7885318!16s%2Fg%2F11c5_8jfdy!19sChIJvyBgi6Q_244R0XjOezPVfMU?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Susies": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPhVaed66Hzjors_B4MPmHK4_Q3YrnuuyE9grZq=w408-h444-k-no",
+                        "coffee-rating": 3.53,
+                        "wifi-rating": 0.87,
+                        "overall-rating": 4.4,
+                        "users-rated": 443,
+                        "address": "Shoppes at Southdale, 9 Southdale Plaza 1, 10 South Ave, Kingston, Jamaica",
+                        "url": "https://www.google.com/maps/place/Susie%27s/data=!4m7!3m6!1s0x8edb3fb34f7ada4f:0x19b6714ce4c94624!8m2!3d18.0188411!4d-76.7958758!16s%2Fg%2F1tjrr0b_!19sChIJT9p6T7M_244RJEbJ5Exxthk?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Blue Mountain Coffee": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png",
+                        "coffee-rating": 0.0,
+                        "wifi-rating": 0.0,
+                        "overall-rating": 0.0,
+                        "users-rated": 0,
+                        "address": "2645+M3J, Chelsea Ave, Kingston, Jamaica",
+                        "url": "https://www.google.com/maps/place/Blue+Mountain+Coffee/data=!4m7!3m6!1s0x8edb3fba99d8d68b:0x5f5b876be46dfca0!8m2!3d18.0067099!4d-76.79235!16s%2Fg%2F11h_6q8k8d!19sChIJi9bYmbo_244RoPxt5GuHW18?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Cuttys": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipPXVY3liWgFPvAVm7jN_irfskd-lGsDQ0ws-5OL=w408-h544-k-no",
+                        "coffee-rating": 4.14,
+                        "wifi-rating": 0.06,
+                        "overall-rating": 4.2,
+                        "users-rated": 10,
+                        "address": "X5JV+PQJ, 1st St, Kingston, Jamaica",
+                        "url": "https://www.google.com/maps/place/Cutty%27s/data=!4m7!3m6!1s0x8edb3ff256407d4b:0x98a601f21c6dd0f9!8m2!3d17.9818397!4d-76.8056113!16s%2Fg%2F1x5fcdz6!19sChIJS31AVvI_244R-dBtHPIBppg?authuser=0&hl=en&rclk=1"
+                    }
+                },
+                {
+                    "Top Ten": {
+                        "description": "If you every need a quick meal, this is the place to be. Air conditioned; with plenty off seats to go around. Easily accessible be right near the middle of the town. I would avoid from 12:00 - 4:00 p.m. if crowds and long wait times aren't your thing.",
+                        "image-location": "https://lh5.googleusercontent.com/p/AF1QipOPC_f--pLKPAAkTVzrQfsQVZbKOcW_7G60krLH=w408-h306-k-no",
+                        "coffee-rating": 2.32,
+                        "wifi-rating": 1.68,
+                        "overall-rating": 4.0,
+                        "users-rated": 56,
+                        "address": "X5GX+39Q, Kingston, Jamaica",
+                        "url": "https://www.google.com/maps/place/Top+Ten/data=!4m7!3m6!1s0x8edb3f8ade31f667:0xf12baf9a407c9aa2!8m2!3d17.9752133!4d-76.8015116!16s%2Fg%2F11c0rqbllz!19sChIJZ_Yx3oo_244Ropp8QJqvK_E?authuser=0&hl=en&rclk=1"
+                    }
+                }
+            ]
+        }
+    ]
+}

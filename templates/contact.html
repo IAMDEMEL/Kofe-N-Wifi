@@ -1,0 +1,75 @@
+{%extends "base.html"%}
+    {%block head%}
+      {{ super() }}
+      <title>Kofe N Wifi | Contact</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='styles/contact.css') }}">
+    {%endblock%}
+    {%block content%}
+      <main class="contact">
+        <section class="hero">
+          <div class="image-block">
+            <img class="hero-image" src="{{ url_for('static', filename='image/Hero 3 - African American Woman with Coffee.png') }}">
+            <div class="image-to-background-transition"></div>
+            <p class="hero-text">Now it's your turn, let me know what you think of these Kofe and Wifi hubs across Jamaica.
+              Heck, let me know your favorites and one's that you've discovered on your own and aren't listed here.
+              I'd love to visit them and have them added for other Kofe connoisseurs.
+            </p>
+          </div>
+
+          <div class="reach-out-text-container">
+            <p class="reach-out-text">Re<span class="green">ach</span> <span class="yellow underline">Out!</span></p>
+          </div>
+        </section>
+
+        <section class="contact-form">
+          <form action="{{ url_for('contact') }}" enctype="multipart/form-data" method="POST">
+            <div class="user_info">
+              <div class="name">
+                <input name="name" type="text" placeholder="John Snow">
+              </div>
+              <div class="email">
+                <input name="email" type="text" placeholder="example@gmail.com">
+              </div>
+            </div>
+
+            <div class="users-thoughts">
+              <textarea name="thoughts" placeholder=" Your thoughts....."></textarea>
+            </div>
+            <button class="submit-button">Submit</button>
+          </form>
+
+          <div class="contact-information">
+            <div class="my-info">
+              <div>
+                <p class="my-name">Demel Gayle</p>
+              </div>
+              <img class="me" src="{{ url_for('static', filename='image/Meeee.jpeg') }}">
+            </div>
+            <div class="email row">
+              <img class="contact-icon" src="{{ url_for('static', filename='icons/email.png') }}">
+              <p class="email-text contact-text">workaholicdemel@outlook.com</p>
+            </div>
+
+            <div class="phone row">
+              <img class="contact-icon" src="{{ url_for('static', filename='icons/phone.png') }}">
+              <p class="phone-text contact-text">+1 (876) 212-4027/+1 (914) 396-0972</p>
+            </div>
+
+            <div class="address row">
+              <img class="contact-icon" src="{{ url_for('static', filename='icons/location.png') }}">
+              <div class="address-text">
+                <p class="contact-text">33 Bloomfield Street, Mandeville P.O., Manchester, JA</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="outro-container">
+            <p class="outro-text">As a fellow Kofe lover,
+              I can guarantee that I have your best Kofe-loving interests at heart.
+              Reach out, so we can chat up a storm about locations, stories, and, most definitely, Kofe!
+              You can find my contact info below.</p>
+          </div>
+        </section>
+      </main>
+    {%endblock%}

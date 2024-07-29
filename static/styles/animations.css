@@ -1,0 +1,75 @@
+.background-animation{
+  position: absolute;
+  top: 0;
+}
+.background-beans-1{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+}
+.background-beans-2{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+}
+.background-beans-3{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+}
+.background-beans-1, .background-beans-2, .background-beans-3{
+  width: 1345px;
+}
+.falling-bean-1{
+  width: 20px;
+}
+.falling-bean-2{
+  width: 30px;
+}
+.falling-bean-3{
+  width: 40px;
+}
+.very-slow{
+  animation: falling 28s linear infinite;
+}
+.slow{
+  animation: falling 27s linear infinite;
+}
+.normal{
+  animation: falling 26s linear infinite;
+}
+.fast{
+  animation: falling 25s linear infinite;
+}
+.very-fast{
+  animation: falling 24s linear infinite;
+}
+
+
+.bkgd-bean{
+  position: absolute;
+  top: -20px;
+  z-index: 1;
+  width: 100%;
+}
+#bottom-of-page{
+  margin: 0;
+}
+
+:root{
+  --start_pos: 0px;
+  --end_pos: 1500px;
+}
+
+@keyframes falling{
+  0%{
+    transform: translateY(var(--start_pos));
+  }
+  100%{
+    transform: translateY(var(--end_pos));
+  }
+
+}

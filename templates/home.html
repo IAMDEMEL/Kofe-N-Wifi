@@ -1,0 +1,348 @@
+{%extends "base.html"%}
+    {%block head%}
+      {{ super() }}
+      <title>Kofe N Wifi</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='styles/home.css') }}">
+    {%endblock%}
+    {%block content%}
+      <main class="home">
+      <section class="hero">
+        <p class="hero-heading-text">Great <span class="white">Coffee</span> <span class="yellow">And</span> <span class="white">Wifi</span> Locations <span class="yellow">Across</span> <span class="hero-jamaica">Jam<span class="white">ai</span><span class="yellow">ca</span></span></p>
+        <div class="image-block">
+          <img class="hero-image" src="{{ url_for('static', filename='image/Hero 1 - Coffee on Mountain.png') }}">
+        </div>
+      </section>
+
+      <section class="information">
+        <div class="location-block">
+          <div class="bean-block block1">
+            <div class="Hanover parish-info">
+              <div class="hanover bean-image">
+                <p class="highlight highlight1">Hanover</p>
+                <img id="hanover" class="bean bean1" src="{{ url_for('static', filename='image/Bean.png') }}" onmousemove="HighlightBean('hanover')" onmouseout="UnhighlightBean('hanover')" onclick="ToggleBranch('hanover-branch'); ToggleBorder('hanover-branch')">
+              </div>
+
+              <div id="hanover-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('hanover-branch')">
+                    </div>
+
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="Saint-James parish-info parish-info2">
+              <div class="st_james bean-image">
+                <p class="highlight highlight3">St.James</p>
+                <img id="st.james" class="bean" src="{{ url_for('static', filename='image/Bean2.png') }}" onmouseover="HighlightBean2('st.james')" onmouseout="UnhighlightBean2('st.james')" onclick="ToggleBranch('st.james-branch'); ToggleBorder('st.james-branch')">
+              </div>
+
+              <div id="st.james-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('st.james-branch')">
+                    </div>
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bean-block block2">
+            <div class="Trelawny parish-info">
+              <div class="trelawny bean-image">
+                <p class="highlight highlight2">Trelawny</p>
+                <img id="trelawny" class="bean bean1" src="{{ url_for('static', filename='image/Bean.png') }}" onmouseover="HighlightBean('trelawny')" onmouseout="UnhighlightBean('trelawny')"  onclick="ToggleBranch('trelawny-branch'); ToggleBorder('trelawny-branch')">
+              </div>
+              <div id="trelawny-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('trelawny-branch')">
+                    </div>
+
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="Saint-Ann parish-info  parish-info2">
+              <div class="st_ann bean-image">
+                <p class="highlight highlight2">St.Ann</p>
+                <img id="st.ann" class="bean" src="{{ url_for('static', filename='image/Bean2.png') }}" onmouseover="HighlightBean2('st.ann')" onmouseout="UnhighlightBean2('st.ann')" onclick="ToggleBranch('st.ann-branch'); ToggleBorder('st.ann-branch')">
+              </div>
+
+              <div id="st.ann-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('st.ann-branch')">
+                    </div>
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="bean-block block3">
+            <div class="St-Mary parish-info">
+              <div class="st_mary bean-image">
+                <p class="highlight highlight0">St.Mary</p>
+                <img id="st.mary" class="bean bean1" src="{{ url_for('static', filename='image/Bean.png') }}" onmousemove="HighlightBean('st.mary')" onmouseout="UnhighlightBean('st.mary')" onclick="ToggleBranch('st.mary-branch'); ToggleBorder('st.mary-branch')">
+              </div>
+
+              <div id="st.mary-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('st.mary-branch')">
+                    </div>
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="Portland parish-info parish-info2">
+              <div class="portland bean-image">
+                <p class="highlight highlight4">Portland</p>
+                <img id="portland" class="bean" src="{{ url_for('static', filename='image/Bean2.png') }}" onmouseover="HighlightBean2('portland')" onmouseout="UnhighlightBean2('portland')" onclick="ToggleBranch('portland-branch'); ToggleBorder('portland-branch')">
+              </div>
+
+              <div id="portland-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('portland-branch')">
+                    </div>
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bean-block block4">
+            <div class="Westmoreland parish-info">
+              <div class="westmoreland bean-image">
+                <p class="highlight highlight6">Westmoreland</p>
+                <img id="westmoreland" class="bean bean1" src="{{ url_for('static', filename='image/Bean.png') }}" onmousemove="HighlightBean('westmoreland')" onmouseout="UnhighlightBean('westmoreland')" onclick="ToggleBranch('westmoreland-branch'); ToggleBorder('westmoreland-branch')">
+              </div>
+              <div id="westmoreland-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('westmoreland-branch')">
+                    </div>
+
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="Saint-Elizabeth parish-info  parish-info2">
+              <div class="st_elizabeth bean-image">
+                <p class="highlight highlight6">St.Elizabeth</p>
+                <img id="st.elizabeth" class="bean" src="{{ url_for('static', filename='image/Bean2.png') }}" onmouseover="HighlightBean2('st.elizabeth')" onmouseout="UnhighlightBean2('st.elizabeth')" onclick="ToggleBranch('st.elizabeth-branch'); ToggleBorder('st.elizabeth-branch')">
+              </div>
+
+              <div id="st.elizabeth-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('st.elizabeth-branch')">
+                    </div>
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bean-block block5">
+            <div class="Manchester parish-info">
+              <div class="manchester bean-image">
+                <p class="highlight highlight4">Manchester</p>
+                <img id="manchester" class="bean bean1" src="{{ url_for('static', filename='image/Bean.png') }}" onmousemove="HighlightBean('manchester')" onmouseout="UnhighlightBean('manchester')" onclick="ToggleBranch('manchester-branch'); ToggleBorder('manchester-branch')">
+              </div>
+
+              <div id="manchester-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('manchester-branch')">
+                    </div>
+
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="Clarendon parish-info  parish-info2">
+              <div class="clarendon bean-image">
+                <p class="highlight highlight5">Clarendon</p>
+                <img id="clarendon" class="bean" src="{{ url_for('static', filename='image/Bean2.png') }}" onmouseover="HighlightBean2('clarendon')" onmouseout="UnhighlightBean2('clarendon')" onclick="ToggleBranch('clarendon-branch'); ToggleBorder('clarendon-branch')">
+              </div>
+              <div id="clarendon-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('clarendon-branch')">
+                    </div>
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bean-block block6">
+            <div class="Saint-Catherine parish-info">
+              <div class="st_catherine bean-image">
+                <p class="highlight highlight5">St.Catherine</p>
+                <img id="st.catherine" class="bean bean1" src="{{ url_for('static', filename='image/Bean.png') }}" onmousemove="HighlightBean('st.catherine')" onmouseout="UnhighlightBean('st.catherine')" onclick="ToggleBranch('st.catherine-branch'); ToggleBorder('st.catherine-branch')">
+              </div>
+              <div id="st.catherine-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('st.catherine-branch')">
+                    </div>
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="Saint-Andrew parish-info  parish-info2">
+              <div class="st_andrew bean-image">
+                <p class="highlight highlight5">St.Andrew</p>
+                <img id="st.andrew" class="bean" src="{{ url_for('static', filename='image/Bean2.png') }}" onmouseover="HighlightBean2('st.andrew')" onmouseout="UnhighlightBean2('st.andrew')" onclick="ToggleBranch('st.andrew-branch'); ToggleBorder('st.andrew-branch')">
+              </div>
+              <div id="st.andrew-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('st.andrew-branch')">
+                    </div>
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bean-block block7">
+            <div class="Kingston parish-info">
+              <div class="kingston bean-image">
+                <p class="highlight highlight2">Kingston</p>
+                <img id="kingston" class="bean bean1" src="{{ url_for('static', filename='image/Bean.png') }}" onmousemove="HighlightBean('kingston')" onmouseout="UnhighlightBean('kingston')" onclick="ToggleBranch('kingston-branch'); ToggleBorder('kingston-branch')">
+              </div>
+
+              <div id="kingston-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('kingston-branch')">
+                    </div>
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="Saint-Thomas parish-info  parish-info2">
+              <div class="st_thomas bean-image">
+                <p class="highlight highlight5">St.Thomas</p>
+                <img id="st.thomas" class="bean" src="{{ url_for('static', filename='image/Bean2.png') }}" onmouseover="HighlightBean2('st.thomas')" onmouseout="UnhighlightBean2('st.thomas')" onclick="ToggleBranch('st.thomas-branch'); ToggleBorder('st.thomas-branch')">
+              </div>
+
+              <div id="st.thomas-branch" class="coffee-branch not-visible">
+                <div class="middle">
+                  <div class="parish-list">
+                    <div class="list-top">
+                      <p class="parish-name"></p>
+                      <img src="{{ url_for('static', filename='icons/close.png') }}" class="close-button clickable" onclick="ToggleBranch('st.thomas-branch')">
+                    </div>
+                    <div class="locations-list">
+                      <ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <p class="json_parish_data">{{ parish_json|tojson }}</p>
+      </main>
+    {%endblock%}
+    {%block footer%}
+      {{ super() }}
+      <script src="{{ url_for('static', filename='JS code/home.js') }}"></script>
+    {%endblock%}
