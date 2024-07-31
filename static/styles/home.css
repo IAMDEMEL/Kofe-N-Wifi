@@ -146,8 +146,6 @@
   flex-direction: column;
   position: relative;
   z-index: 9999;
-}
-.side-border{
   left: 10px;
 }
 
@@ -196,6 +194,7 @@
 }
 .parish-list{
   min-width: 576px;
+  border: 2px solid rgb(28, 10, 0);
 }
 .parish-information{
   display: flex;

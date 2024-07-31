@@ -266,6 +266,17 @@ function JiggleBean(){
   }
 }
 
+function JiggleBorderIcons(){
+  let icons = document.querySelectorAll('.border-icon');
+  for (let icon of icons){
+    icon.style.transform = 'rotate(-10deg)';
+
+    setTimeout(function(){
+      icon.style.transform = 'rotate(10deg)'
+    }, 500);
+  }
+}
+
 function HighlightBean(beanID){
   let bean = document.getElementById(beanID);
   bean.src="../static/image/Bean-highlight.png";
@@ -316,8 +327,8 @@ function ToggleBorder(location_branch){
   if(branch.querySelector('.top-border').querySelectorAll('.border-icon').length == 0){
     for(let i = 0; i < amount_to_add; i++){
       if(i % 2 == 0){
-        branch.querySelector('.top-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/beans.png">`);
-        branch.querySelector('.bottom-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/beans.png">`);
+        branch.querySelector('.top-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/mug icon.png">`);
+        branch.querySelector('.bottom-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/mug icon.png">`);
       }
       else{
         branch.querySelector('.top-border').insertAdjacentHTML('beforeend', `<img class="border-leaves border-icon" src="../static/icons/leaves.png">`)
@@ -333,10 +344,11 @@ function ToggleBorder(location_branch){
         branch.querySelector('.side-border').insertAdjacentHTML('beforeend', `<img class="border-leaves border-icon" src="../static/icons/leaves.png">`)
       }
       else{
-        branch.querySelector('.side-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/beans.png">`);
+        branch.querySelector('.side-border').insertAdjacentHTML('beforeend', `<img class="border-beans border-icon" src="../static/icons/mug icon.png">`);
       }
     }
   }
+  setInterval(JiggleBorderIcons, 1000);
   // Adjusting background beans new fall distance based on new page height due to changing window sizes.
   ToggleBeanFallDistance();
 }
