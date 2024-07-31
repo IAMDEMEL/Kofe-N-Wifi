@@ -28,9 +28,6 @@ def contact():
         name = request.form.get('name')
         email = request.form.get('email')
         thoughts = request.form.get('thoughts')
-        print(name)
-        print(email)
-        print(thoughts)
         with smtplib.SMTP(GMAIL_SEVER) as connection:
             connection.starttls()
             connection.login(user=MY_EMAIL, password=APP_PASSWORD)
