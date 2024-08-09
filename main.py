@@ -28,7 +28,7 @@ def contact():
         name = request.form.get('name')
         email = request.form.get('email')
         thoughts = request.form.get('thoughts')
-        with smtplib.SMTP(GMAIL_SEVER) as connection:
+        with smtplib.SMTP(GMAIL_SEVER, port=25) as connection:
             connection.starttls()
             connection.login(user=MY_EMAIL, password=APP_PASSWORD)
             connection.sendmail(
