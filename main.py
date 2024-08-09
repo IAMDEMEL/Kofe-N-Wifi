@@ -22,13 +22,13 @@ def about():
     return render_template('about.html')
 
 
-@app.route("/contact", methods=['GET', 'POST'])
+@app.route("/contact")
 def contact():
-    if request.method == 'POST':
+    if request.form.get('name') is not None:
         name = request.form.get('name')
         email = request.form.get('email')
         thoughts = request.form.get('thoughts')
-        with smtplib.SMTP(GMAIL_SEVER, port=25) as connection:
+        with smtplib.SMTP(GMAIL_SEVER, port=587) as connection:
             connection.starttls()
             connection.login(user=MY_EMAIL, password=APP_PASSWORD)
             connection.sendmail(
