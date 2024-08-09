@@ -28,15 +28,12 @@ def contact():
         name = request.form.get('name')
         email = request.form.get('email')
         thoughts = request.form.get('thoughts')
-        with smtplib.SMTP(GMAIL_SEVER, port=25) as connection:
-            connection.starttls()
-            connection.login(user=MY_EMAIL, password=APP_PASSWORD)
-            connection.sendmail(
-                from_addr=MY_EMAIL,
-                to_addrs=RECEIVERS_EMAIL,
-                msg=f"Subject: Kofe N Wifi Message!!!\n\n Hey Demel,\n\n This is " +
-                    name + ". " + thoughts + "\n\nMy email is " + email
-            )
+        message = (f"Subject: Kofe N Wifi Message!!!\n\n Hey Demel,\n\n This is " +
+                   name + ". " + thoughts + "\n\nMy email is " + email)
+        sever = smtplib.SMTP(GMAIL_SEVER, 587)
+        sever.starttls()
+        sever.login(MY_EMAIL, APP_PASSWORD)
+        sever.sendmail(MY_EMAIL, RECEIVERS_EMAIL, message)
     return render_template('contact.html')
 
 
